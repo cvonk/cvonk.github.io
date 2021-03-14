@@ -34,14 +34,6 @@
 
 ### No alpha channel
 
-* VP9
-
-   * Davinci Resolve 16 decode: yes, in .mp4/.mov
-   * Davinci Resolve 16 encode: none
-   * fffmpeg git@2021-01-09 decode: ??
-   * fffmpeg git@2021-01-09 encode: yes, with alpha
-   * `ffmpeg -i lagarith-rgbap.avi -pix_fmt yuva420p -c:v vp9 -crf 32 vp9-yuva420p.mp4`
-
 * H.264, *no* alpha support in codec
 
    * Davinci Resolve 16 decode: yes (GPU accelerated in Studio) in mp4
@@ -57,6 +49,14 @@
    * fffmpeg git@2021-01-09 decode: yes, alpha not yet
    * fffmpeg git@2021-01-09 encode: yes, alpha not yet
    * `ffmpeg -i lagarith-rgbap.avi -c:v libx265 -preset faster -tune fastdecode -x265-params keyint=15:bframes=3:crf=17 h265-rgbp.mp4`
+
+* VP9
+
+   * Davinci Resolve 16 decode: yes, in .mp4/.mov
+   * Davinci Resolve 16 encode: none
+   * fffmpeg git@2021-01-09 decode: ??
+   * fffmpeg git@2021-01-09 encode: yes, with alpha
+   * `ffmpeg -i lagarith-rgbap.avi -pix_fmt yuva420p -c:v vp9 -crf 32 vp9-yuva420p.mp4`
 
 ## References
 
