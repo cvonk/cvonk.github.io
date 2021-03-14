@@ -1,4 +1,4 @@
-# Lossless/lossly CODECs in DaVinci Resolve 17.1
+# CODECs in DaVinci Resolve 17.1
 
 ## Lossless
 
