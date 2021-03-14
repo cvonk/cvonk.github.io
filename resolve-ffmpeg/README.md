@@ -40,7 +40,7 @@
    * Davinci Resolve encode: yes (GPU accelerated in Studio) in mp4
    * ffmpeg git@2021-01-09 decode: yes, with alpha
    * ffmpeg git@2021-01-09 encode: yes, with alpha
-   * `ffmpeg -y -i lagarith-rgbap.avi -pix_fmt yuv420p -c:v libx264 -preset superfast -tune fastdecode -x264-params keyint=1:crf=17 h264-yuv420p.mp4`
+   * `ffmpeg -i lagarith-rgbap.avi -pix_fmt yuv420p -c:v libx264 -preset superfast -tune fastdecode -x264-params keyint=1:crf=17 h264-yuv420p.mp4`
 
 * H.265
 
@@ -48,7 +48,14 @@
    * Davinci Resolve encode: Studio only (GPU accelerated on Intel) in mp4
    * ffmpeg git@2021-01-09 decode: yes, no alpha yet
    * ffmpeg git@2021-01-09 encode: yes, no alpha yet
-   * `ffmpeg -i lagarith-rgbap.avi -c:v libx265 -preset faster -tune fastdecode -x265-params keyint=15:bframes=3:crf=17 h265-rgbp.mp4`
+   * `ffmpeg -i lagarith-rgbap.avi -pix_fmt yuv420p -c:v libx265 -preset superfast -tune fastdecode -x265-params keyint=1:crf=21 h265-yuv420p.mp4`
+   * `ffmpeg -i lagarith-rgbap.avi -pix_fmt yuv420p10 -c:v libx265 -preset superfast -tune fastdecode -x265-params keyint=1:crf=21 h265-yuv420p10.mp4`
+   * `ffmpeg -i lagarith-rgbap.avi -pix_fmt yuv420p12 -c:v libx265 -preset superfast -tune fastdecode -x265-params keyint=1:crf=21 h265-yuv420p12.mp4`
+   * `ffmpeg -i lagarith-rgbap.avi -pix_fmt yuv444p -c:v libx265 -preset superfast -tune fastdecode -x265-params keyint=1:crf=21 h265-yuv444p.mp4`
+   * `ffmpeg -i lagarith-rgbap.avi -pix_fmt yuv444p10 -c:v libx265 -preset superfast -tune fastdecode -x265-params keyint=1:crf=21 h265-yuv444p10.mp4`
+   * `ffmpeg -i lagarith-rgbap.avi -pix_fmt yuv444p12 -c:v libx265 -preset superfast -tune fastdecode -x265-params keyint=1:crf=21 h265-yuv444p12.mp4`
+   * `ffmpeg -i lagarith-rgbap.avi -pix_fmt rgb24 -c:v libx265 -preset superfast -tune fastdecode -x265-params keyint=1:crf=21 h265-rgbp.mp4`
+   * `ffmpeg -i lagarith-rgbap.avi -pix_fmt rgb48 -c:v libx265 -preset superfast -tune fastdecode -x265-params keyint=1:crf=21 h265-rgbp12le.mp4`
 
 * VP9
 
