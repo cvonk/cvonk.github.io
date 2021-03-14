@@ -40,7 +40,7 @@
    * Davinci Resolve encode: yes (GPU accelerated in Studio) in mp4
    * ffmpeg git@2021-01-09 decode: yes, with alpha
    * ffmpeg git@2021-01-09 encode: yes, with alpha
-   * ffmpeg options: `-pix_fmt yuv420p -c:v libx264 -preset superfast -tune fastdecode -x264-params keyint=1:crf=17 h264-yuv420p.mp4`
+   * ffmpeg options: `-pix_fmt yuv420p -c:v libx264 -preset superfast -tune fastdecode -g 1 -crf 17 h264-yuv420p.mp4`
 
 * H.265
 
@@ -48,8 +48,8 @@
    * Davinci Resolve encode: Studio only (GPU accelerated on Intel) in mp4
    * ffmpeg git@2021-01-09 decode: yes, no alpha yet
    * ffmpeg git@2021-01-09 encode: yes, no alpha yet
-   * ffmpeg options: `-pix_fmt yuv420p -c:v libx265 -preset superfast -tune fastdecode -x265-params keyint=1:crf=21 h265-yuv420p.mp4`
-   * ffmpeg options: `-pix_fmt yuv420p10 -c:v libx265 -preset superfast -tune fastdecode -x265-params keyint=1:crf=21 h265-yuv420p10.mp4`
+   * ffmpeg options: `-pix_fmt yuv420p -c:v libx265 -preset superfast -tune fastdecode -g 1 -crf 21 h265-yuv420p.mp4`
+   * ffmpeg options: `-pix_fmt yuv420p10 -c:v libx265 -preset superfast -tune fastdecode -g 1 -crf 21 h265-yuv420p10.mp4`
 
 * VP9
 
