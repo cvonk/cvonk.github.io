@@ -10,7 +10,7 @@
     * Davinci Resolve 16 encode: none
     * fffmpeg git@2021-01-09 decode: yes, with alpha
     * fffmpeg git@2021-01-09 encode: yes, with alpha
-    * `.\ffmpeg.exe -i lagarith-rgbap.avi -pix_fmt yuva444p10le -c:v prores_ks -profile:v 4444  prores_ks-yuva444p10.mov`
+    * `ffmpeg -i lagarith-rgbap.avi -pix_fmt yuva444p10le -c:v prores_ks -profile:v 4444  prores_ks-yuva444p10.mov`
 
 ### No alpha channel
 
@@ -20,7 +20,7 @@
    * Davinci Resolve 16 encode: YUV 10-bit (RGB 16-bit alpha export in .avi)
    * fffmpeg git@2021-01-09 decode: yes, with alpha
    * fffmpeg git@2021-01-09 encode: yes, with alpha
-   * `.\ffmpeg.exe -i lagarith-rgbap.avi -c:v cfhd -quality film3+ cineform-   * rgbap12.avi`
+   * `ffmpeg -i lagarith-rgbap.avi -c:v cfhd -quality film3+ cineform-rgbap12.avi`
 
 * DNxHD, *no alpha* support in codec
 
@@ -28,7 +28,7 @@
    * Davinci Resolve 16 encode: 444 (10-bit, 12-bit), HQX (10-bit, 12-bit), HQ, LB, SQ (alpha export except LB) in .mov
    * fffmpeg git@2021-01-09 decode: yes
    * fffmpeg git@2021-01-09 encode: yes
-   * `.\ffmpeg.exe -i lagarith-rgbap.avi -pix_fmt yuv422p10le -c:v dnxhd -profile:v dnxhr_hqx dnxhd-yuv422p10.mov`
+   * `ffmpeg -i lagarith-rgbap.avi -pix_fmt yuv422p10le -c:v dnxhd -profile:v dnxhr_hqx dnxhd-yuv422p10.mov`
 
 ## Lossy
 
@@ -40,7 +40,7 @@
    * Davinci Resolve 16 encode: none
    * fffmpeg git@2021-01-09 decode: ??
    * fffmpeg git@2021-01-09 encode: yes, with alpha
-   `.\ffmpeg.exe -i lagarith-rgbap.avi -pix_fmt yuva420p -c:v vp9 -crf 32 vp9-yuva420p.mp4`
+   * `ffmpeg -i lagarith-rgbap.avi -pix_fmt yuva420p -c:v vp9 -crf 32 vp9-yuva420p.mp4`
 
 * H.264, *no* alpha support in codec
 
@@ -48,7 +48,7 @@
    * Davinci Resolve 16 encode: yes (GPU accelerated in Studio) in mp4
    * fffmpeg git@2021-01-09 decode: yes
    * fffmpeg git@2021-01-09 encode: yes
-   * `.\ffmpeg.exe -i lagarith-rgbap.avi -c:v libx264 -preset faster -tune fastdecode -x264-params keyint=15:bframes=3:crf=17 h264-yuv444p.mp4`
+   * `ffmpeg -i lagarith-rgbap.avi -c:v libx264 -preset faster -tune fastdecode -x264-params keyint=15:bframes=3:crf=17 h264-yuv444p.mp4`
 
 * H.265
 
@@ -56,7 +56,7 @@
    * Davinci Resolve 16 encode: Studio only (GPU accelerated on Intel) in mp4
    * fffmpeg git@2021-01-09 decode: yes, alpha not yet
    * fffmpeg git@2021-01-09 encode: yes, alpha not yet
-   * `.\ffmpeg.exe -i lagarith-rgbap.avi -c:v libx265 -preset faster -tune fastdecode -x265-params keyint=15:bframes=3:crf=17 h265-rgbp.mp4`
+   * `ffmpeg -i lagarith-rgbap.avi -c:v libx265 -preset faster -tune fastdecode -x265-params keyint=15:bframes=3:crf=17 h265-rgbp.mp4`
 
 ## References
 
