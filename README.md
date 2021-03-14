@@ -6,8 +6,8 @@
 
 * Apple ProRes:
 
-    * Davinci Resolve 16 decode: 422, 422 HQ, 422 LT, 422 Proxy, 4444, 4444 XQ in .mov
-    * Davinci Resolve 16 encode: none
+    * Davinci Resolve decode: 422, 422 HQ, 422 LT, 422 Proxy, 4444, 4444 XQ in .mov
+    * Davinci Resolve encode: none
     * fffmpeg git@2021-01-09 decode: yes, with alpha
     * fffmpeg git@2021-01-09 encode: yes, with alpha
     * `ffmpeg -i lagarith-rgbap.avi -pix_fmt yuva444p10le -c:v prores_ks -profile:v 4444  prores_ks-yuva444p10.mov`
@@ -16,16 +16,16 @@
 
 * GoPro CineForm:
 
-   * Davinci Resolve 16 decode: Native, YUV 10-bit in .avi/mov, RGB 16-bit in .mov
-   * Davinci Resolve 16 encode: YUV 10-bit (RGB 16-bit alpha export in .avi)
+   * Davinci Resolve decode: Native, YUV 10-bit in .avi/mov, RGB 16-bit in .mov
+   * Davinci Resolve encode: YUV 10-bit (RGB 16-bit alpha export in .avi)
    * fffmpeg git@2021-01-09 decode: yes, with alpha
    * fffmpeg git@2021-01-09 encode: yes, with alpha
    * `ffmpeg -i lagarith-rgbap.avi -c:v cfhd -quality film3+ cineform-rgbap12.avi`
 
 * DNxHD, *no alpha* support in codec
 
-   * Davinci Resolve 16 decode: yes
-   * Davinci Resolve 16 encode: 444 (10-bit, 12-bit), HQX (10-bit, 12-bit), HQ, LB, SQ (alpha export except LB) in .mov
+   * Davinci Resolve decode: yes
+   * Davinci Resolve encode: 444 (10-bit, 12-bit), HQX (10-bit, 12-bit), HQ, LB, SQ (alpha export except LB) in .mov
    * fffmpeg git@2021-01-09 decode: yes
    * fffmpeg git@2021-01-09 encode: yes
    * `ffmpeg -i lagarith-rgbap.avi -pix_fmt yuv422p10le -c:v dnxhd -profile:v dnxhr_hqx dnxhd-yuv422p10.mov`
@@ -36,25 +36,25 @@
 
 * H.264, *no* alpha support in codec
 
-   * Davinci Resolve 16 decode: yes (GPU accelerated in Studio) in mp4
-   * Davinci Resolve 16 encode: yes (GPU accelerated in Studio) in mp4
-   * fffmpeg git@2021-01-09 decode: yes
-   * fffmpeg git@2021-01-09 encode: yes
+   * Davinci Resolve decode: yes (GPU accelerated in Studio) in mp4
+   * Davinci Resolve encode: yes (GPU accelerated in Studio) in mp4
+   * fffmpeg git@2021-01-09 decode: yes, with alpha
+   * fffmpeg git@2021-01-09 encode: yes, with alpha
    * `ffmpeg -i lagarith-rgbap.avi -c:v libx264 -preset faster -tune fastdecode -x264-params keyint=15:bframes=3:crf=17 h264-yuv444p.mp4`
 
 * H.265
 
-   * Davinci Resolve 16 decode: yes (GPU accelerated in Studio) in mp4
-   * Davinci Resolve 16 encode: Studio only (GPU accelerated on Intel) in mp4
-   * fffmpeg git@2021-01-09 decode: yes, alpha not yet
-   * fffmpeg git@2021-01-09 encode: yes, alpha not yet
+   * Davinci Resolve decode: yes (GPU accelerated in Studio) in mp4
+   * Davinci Resolve encode: Studio only (GPU accelerated on Intel) in mp4
+   * fffmpeg git@2021-01-09 decode: yes, no alpha yet
+   * fffmpeg git@2021-01-09 encode: yes, no alpha yet
    * `ffmpeg -i lagarith-rgbap.avi -c:v libx265 -preset faster -tune fastdecode -x265-params keyint=15:bframes=3:crf=17 h265-rgbp.mp4`
 
 * VP9
 
-   * Davinci Resolve 16 decode: yes, in .mp4/.mov
-   * Davinci Resolve 16 encode: none
-   * fffmpeg git@2021-01-09 decode: ??
+   * Davinci Resolve decode: yes, in .mp4/.mov
+   * Davinci Resolve encode: none
+   * fffmpeg git@2021-01-09 decode: yes, with alpha
    * fffmpeg git@2021-01-09 encode: yes, with alpha
    * `ffmpeg -i lagarith-rgbap.avi -pix_fmt yuva420p -c:v vp9 -crf 32 vp9-yuva420p.mp4`
 
