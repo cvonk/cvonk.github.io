@@ -63,4 +63,9 @@
 * [Davinci 16 supported codec list](https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_16_Supported_Codec_List.pdf)
 * [ffmpeg alpha masking](https://curiosalon.github.io/blog/ffmpeg-alpha-masking/)
 * [Avisynth+ <--> Davinci Resolve 16](https://forum.doom9.org/showthread.php?t=176877)
-* `.\ffmpeg -h encoder=prores_ks`, `.\ffmpeg -h encoder=prores_aw`, `.\ffmpeg -h encoder=prores`, `.\ffmpeg -h encoder=cfhd`, `.\ffmpeg -h encoder=dnxhd`, `.\ffmpeg -h encoder=vp9`, `.\ffmpeg -h encoder=libx264` or `.\x264 --fullhelp`, `.\ffmpeg -h encoder=libx265` or `.\x265 --fullhelp`
+* `.\ffmpeg -h encoder=prores_ks` `.\ffmpeg -h encoder=prores_aw` `.\ffmpeg -h encoder=prores`
+* `.\ffmpeg -h encoder=cfhd`
+* `.\ffmpeg -h encoder=dnxhd`
+* `.\ffmpeg -h encoder=vp9`
+* `.\ffmpeg -h encoder=libx264` `.\x264 --fullhelp`
+* `.\ffmpeg -h encoder=libx265` `.\x265 --fullhelp`
