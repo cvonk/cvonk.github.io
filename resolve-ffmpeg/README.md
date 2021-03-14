@@ -10,7 +10,7 @@
     * Davinci Resolve encode: none
     * ffmpeg git@2021-01-09 decode: yes, with alpha
     * ffmpeg git@2021-01-09 encode: yes, with alpha
-    * `ffmpeg -i lagarith-rgbap.avi -pix_fmt yuva444p10le -c:v prores_ks -profile:v 4444  prores_ks-yuva444p10.mov`
+    * ffmpeg options: `-pix_fmt yuva444p10le -c:v prores_ks -profile:v 4444  prores_ks-yuva444p10.mov`
 
 ### No alpha channel
 
@@ -20,7 +20,7 @@
    * Davinci Resolve encode: YUV 10-bit (RGB 16-bit alpha export in .avi)
    * ffmpeg git@2021-01-09 decode: yes, with alpha
    * ffmpeg git@2021-01-09 encode: yes, with alpha
-   * `ffmpeg -i lagarith-rgbap.avi -c:v cfhd -quality film3+ cineform-rgbap12.avi`
+   * ffmpeg options: `-c:v cfhd -quality film3+ cineform-rgbap12.avi`
 
 * DNxHD, *no alpha* support in CODEC
 
@@ -28,7 +28,7 @@
    * Davinci Resolve encode: 444 (10-bit, 12-bit), HQX (10-bit, 12-bit), HQ, LB, SQ (alpha export except LB) in .mov
    * ffmpeg git@2021-01-09 decode: yes
    * ffmpeg git@2021-01-09 encode: yes
-   * `ffmpeg -i lagarith-rgbap.avi -pix_fmt yuv420p10le -c:v dnxhd -profile:v dnxhr_hqx dnxhd-yuv422p10.mov`
+   * ffmpeg options: `-pix_fmt yuv420p10le -c:v dnxhd -profile:v dnxhr_hqx dnxhd-yuv422p10.mov`
 
 ## Lossy
 
@@ -40,7 +40,7 @@
    * Davinci Resolve encode: yes (GPU accelerated in Studio) in mp4
    * ffmpeg git@2021-01-09 decode: yes, with alpha
    * ffmpeg git@2021-01-09 encode: yes, with alpha
-   * `ffmpeg -i lagarith-rgbap.avi -pix_fmt yuv420p -c:v libx264 -preset superfast -tune fastdecode -x264-params keyint=1:crf=17 h264-yuv420p.mp4`
+   * ffmpeg options: `-pix_fmt yuv420p -c:v libx264 -preset superfast -tune fastdecode -x264-params keyint=1:crf=17 h264-yuv420p.mp4`
 
 * H.265
 
@@ -48,8 +48,8 @@
    * Davinci Resolve encode: Studio only (GPU accelerated on Intel) in mp4
    * ffmpeg git@2021-01-09 decode: yes, no alpha yet
    * ffmpeg git@2021-01-09 encode: yes, no alpha yet
-   * `ffmpeg -i lagarith-rgbap.avi -pix_fmt yuv420p -c:v libx265 -preset superfast -tune fastdecode -x265-params keyint=1:crf=21 h265-yuv420p.mp4`
-   * `ffmpeg -i lagarith-rgbap.avi -pix_fmt yuv420p10 -c:v libx265 -preset superfast -tune fastdecode -x265-params keyint=1:crf=21 h265-yuv420p10.mp4`
+   * ffmpeg options: `-pix_fmt yuv420p -c:v libx265 -preset superfast -tune fastdecode -x265-params keyint=1:crf=21 h265-yuv420p.mp4`
+   * ffmpeg options: `-pix_fmt yuv420p10 -c:v libx265 -preset superfast -tune fastdecode -x265-params keyint=1:crf=21 h265-yuv420p10.mp4`
 
 * VP9
 
@@ -57,7 +57,7 @@
    * Davinci Resolve encode: none
    * ffmpeg git@2021-01-09 decode: yes, with alpha
    * ffmpeg git@2021-01-09 encode: yes, with alpha
-   * `ffmpeg -i lagarith-rgbap.avi -pix_fmt yuva420p -c:v vp9 -crf 32 vp9-yuva420p.mp4`
+   * ffmpeg options: `-pix_fmt yuva420p -c:v vp9 -crf 32 vp9-yuva420p.mp4`
 
 ## References
 
