@@ -6,10 +6,10 @@
 
 * Apple ProRes:
 
-    * Davinci Resolve decode: 422, 422 HQ, 422 LT, 422 Proxy, 4444, 4444 XQ in `.mov`
+    * Davinci Resolve decode: yes, *with* alpha
     * Davinci Resolve encode: none
-    * ffmpeg git@2021-01-09 decode: yes, with alpha
-    * ffmpeg git@2021-01-09 encode: yes, with alpha
+    * ffmpeg git@2021-01-09 decode: yes, *with* alpha
+    * ffmpeg git@2021-01-09 encode: yes, *with* alpha
     * ffmpeg options:
       * YUV 4:2:2 10-bits: `-pix_fmt yuv444p10 -c:v prores_ks -profile:v hq  prores-yuva444p10.mov`
       * YUV 4:4:4 10-bits: `-pix_fmt yuv444p10 -c:v prores_ks -profile:v 4444xq  prores-yuva444p10.mov`
@@ -19,7 +19,7 @@
 
 * GoPro CineForm:
 
-   * Davinci Resolve decode: Native, YUV 10-bit in .avi/.mov, RGB 16-bit in `.mov`
+   * Davinci Resolve decode: yes, *without* alpha. Native, YUV 10-bit in .avi/.mov, RGB 16-bit in `.mov`
    * Davinci Resolve encode: YUV 10-bit (RGB 16-bit alpha export in `.avi`)
    * ffmpeg git@2021-01-09 decode: yes, with alpha
    * ffmpeg git@2021-01-09 encode: yes, with alpha
@@ -43,26 +43,26 @@
 
 * H.264, *no* alpha support in CODEC
 
-   * Davinci Resolve decode: yes (GPU accelerated in Studio) in `.mp4`
-   * Davinci Resolve encode: yes (GPU accelerated in Studio) in `.mp4`
-   * ffmpeg git@2021-01-09 decode: yes, with alpha
-   * ffmpeg git@2021-01-09 encode: yes, with alpha
+   * Davinci Resolve decode: yes (GPU accelerated in Studio)
+   * Davinci Resolve encode: yes (GPU accelerated in Studio)
+   * ffmpeg git@2021-01-09 decode: yes
+   * ffmpeg git@2021-01-09 encode: yes
    * ffmpeg options:
       * YUV 4:2:0 8-bits: `-pix_fmt yuv420p -c:v libx264 -preset superfast -tune fastdecode -g 1 -crf 17 h264-yuv420p.mp4`
 
 * H.265
 
-   * Davinci Resolve decode: yes (GPU accelerated in Studio) in `.mp4`
-   * Davinci Resolve encode: Studio only (GPU accelerated on Intel) in `.mp4`
-   * ffmpeg git@2021-01-09 decode: yes, no alpha yet
-   * ffmpeg git@2021-01-09 encode: yes, no alpha yet
+   * Davinci Resolve decode: yes, *without* alpha (GPU accelerated in Studio)
+   * Davinci Resolve encode: Studio only (GPU accelerated on Intel)
+   * ffmpeg git@2021-01-09 decode: yes, no alpha (yet)
+   * ffmpeg git@2021-01-09 encode: yes, no alpha (yet)
    * ffmpeg options:
       * YUV 4:2:0 8-bits: `-pix_fmt yuv420p -c:v libx265 -preset superfast -tune fastdecode -g 1 -crf 21 h265-yuv420p.mp4`
       * YUV 4:2:0 10-bits: `-pix_fmt yuv420p10 -c:v libx265 -preset superfast -tune fastdecode -g 1 -crf 21 h265-yuv420p10.mp4`
 
 * VP9
 
-   * Davinci Resolve decode: yes, in `.mp4`/`.mov`
+   * Davinci Resolve decode: yes, *without* alpha
    * Davinci Resolve encode: none
    * ffmpeg git@2021-01-09 decode: yes, with alpha
    * ffmpeg git@2021-01-09 encode: yes, with alpha
