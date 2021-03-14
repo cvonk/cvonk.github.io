@@ -22,7 +22,7 @@
    * ffmpeg git@2021-01-09 encode: yes, with alpha
    * `ffmpeg -i lagarith-rgbap.avi -c:v cfhd -quality film3+ cineform-rgbap12.avi`
 
-* DNxHD, *no alpha* support in codec
+* DNxHD, *no alpha* support in CODEC
 
    * Davinci Resolve decode: yes
    * Davinci Resolve encode: 444 (10-bit, 12-bit), HQX (10-bit, 12-bit), HQ, LB, SQ (alpha export except LB) in .mov
@@ -34,7 +34,7 @@
 
 ### No alpha channel
 
-* H.264, *no* alpha support in codec
+* H.264, *no* alpha support in CODEC
 
    * Davinci Resolve decode: yes (GPU accelerated in Studio) in mp4
    * Davinci Resolve encode: yes (GPU accelerated in Studio) in mp4
@@ -50,12 +50,6 @@
    * ffmpeg git@2021-01-09 encode: yes, no alpha yet
    * `ffmpeg -i lagarith-rgbap.avi -pix_fmt yuv420p -c:v libx265 -preset superfast -tune fastdecode -x265-params keyint=1:crf=21 h265-yuv420p.mp4`
    * `ffmpeg -i lagarith-rgbap.avi -pix_fmt yuv420p10 -c:v libx265 -preset superfast -tune fastdecode -x265-params keyint=1:crf=21 h265-yuv420p10.mp4`
-   * `ffmpeg -i lagarith-rgbap.avi -pix_fmt yuv420p12 -c:v libx265 -preset superfast -tune fastdecode -x265-params keyint=1:crf=21 h265-yuv420p12.mp4`
-   * `ffmpeg -i lagarith-rgbap.avi -pix_fmt yuv444p -c:v libx265 -preset superfast -tune fastdecode -x265-params keyint=1:crf=21 h265-yuv444p.mp4`
-   * `ffmpeg -i lagarith-rgbap.avi -pix_fmt yuv444p10 -c:v libx265 -preset superfast -tune fastdecode -x265-params keyint=1:crf=21 h265-yuv444p10.mp4`
-   * `ffmpeg -i lagarith-rgbap.avi -pix_fmt yuv444p12 -c:v libx265 -preset superfast -tune fastdecode -x265-params keyint=1:crf=21 h265-yuv444p12.mp4`
-   * `ffmpeg -i lagarith-rgbap.avi -pix_fmt rgb24 -c:v libx265 -preset superfast -tune fastdecode -x265-params keyint=1:crf=21 h265-rgbp.mp4`
-   * `ffmpeg -i lagarith-rgbap.avi -pix_fmt rgb48 -c:v libx265 -preset superfast -tune fastdecode -x265-params keyint=1:crf=21 h265-rgbp12le.mp4`
 
 * VP9
 
