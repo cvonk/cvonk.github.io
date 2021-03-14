@@ -58,7 +58,7 @@
    * Davinci Resolve encode: none
    * ffmpeg git@2021-01-09 decode: yes, with alpha
    * ffmpeg git@2021-01-09 encode: yes, with alpha
-   * ffmpeg options: `-pix_fmt yuva420p -c:v vp9 -crf 32 vp9-yuva420p.mp4`
+   * ffmpeg options: `-pix_fmt yuva420p -c:v vp9 -g 1 -crf 32 vp9-yuva420p.mp4`
 
 ## References
 
