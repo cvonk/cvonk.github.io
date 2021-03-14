@@ -3,11 +3,12 @@
 ##   WITH ALPHA CHANNEL support in Davinci 17.1
 
 * Apple ProRes:
-Davinci Resolve 16 decode: 422, 422 HQ, 422 LT, 422 Proxy, 4444, 4444 XQ in .mov
-Davinci Resolve 16 encode: none
-fffmpeg git@2021-01-09 decode: yes, with alpha
-fffmpeg git@2021-01-09 encode: yes, with alpha (.\ffmpeg.exe -i lagarith-rgbap.avi -pix_fmt yuva444p10le -c:v prores_ks -profile:v 4444  prores_ks-yuva444p10.mov)
-see `.\ffmpeg -h encoder=prores_ks` or `.\ffmpeg -h encoder=prores_aw` or `.\ffmpeg -h encoder=prores`
+
+    * Davinci Resolve 16 decode: 422, 422 HQ, 422 LT, 422 Proxy, 4444, 4444 XQ in .mov
+    * Davinci Resolve 16 encode: none
+    * fffmpeg git@2021-01-09 decode: yes, with alpha
+    * fffmpeg git@2021-01-09 encode: yes, with alpha (.\ffmpeg.exe -i lagarith-rgbap.avi -pix_fmt yuva444p10le -c:v prores_ks -profile:v 4444  prores_ks-yuva444p10.mov)
+    * see `.\ffmpeg -h encoder=prores_ks` or `.\ffmpeg -h encoder=prores_aw` or `.\ffmpeg -h encoder=prores`
 
 ## NO ALPHA CHANNEL support in Davinci 17.1
 
