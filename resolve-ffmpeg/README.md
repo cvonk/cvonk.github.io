@@ -19,17 +19,17 @@
 
 * GoPro CineForm:
 
-   * Davinci Resolve decode: yes, *without* alpha. Native, YUV 10-bit in .avi/.mov, RGB 16-bit in `.mov`
+   * Davinci Resolve decode: yes, *without* alpha. Native, YUV 10-bit, RGB 16-bit
    * Davinci Resolve encode: YUV 10-bit (RGB 16-bit alpha export in `.avi`)
    * ffmpeg git@2021-01-09 decode: yes, with alpha
    * ffmpeg git@2021-01-09 encode: yes, with alpha
    * ffmpeg options:
       * RGB 12-bits: `-pix_fmt gbrp12 -c:v cfhd -quality film3+ cineform-rgbp12.avi`
 
-* DNxHD, *no alpha* support in CODEC
+* DNxHD, *no alpha* support in decode CODEC (?)
 
    * Davinci Resolve decode: yes
-   * Davinci Resolve encode: 444 (10-bit, 12-bit), HQX (10-bit, 12-bit), HQ, LB, SQ (alpha export except LB) in `.mov`
+   * Davinci Resolve encode: 444 (10/12-bit), HQX (10/12-bit), HQ, LB, SQ (alpha export except LB) in `.mov`
    * ffmpeg git@2021-01-09 decode: yes
    * ffmpeg git@2021-01-09 encode: yes
    * ffmpeg options:
