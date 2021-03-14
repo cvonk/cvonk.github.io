@@ -28,7 +28,7 @@
    * Davinci Resolve encode: 444 (10-bit, 12-bit), HQX (10-bit, 12-bit), HQ, LB, SQ (alpha export except LB) in .mov
    * ffmpeg git@2021-01-09 decode: yes
    * ffmpeg git@2021-01-09 encode: yes
-   * `ffmpeg -i lagarith-rgbap.avi -pix_fmt yuv422p10le -c:v dnxhd -profile:v dnxhr_hqx dnxhd-yuv422p10.mov`
+   * `ffmpeg -i lagarith-rgbap.avi -pix_fmt yuv420p10le -c:v dnxhd -profile:v dnxhr_hqx dnxhd-yuv422p10.mov`
 
 ## Lossy
 
@@ -40,8 +40,8 @@
    * Davinci Resolve encode: yes (GPU accelerated in Studio) in mp4
    * ffmpeg git@2021-01-09 decode: yes, with alpha
    * ffmpeg git@2021-01-09 encode: yes, with alpha
-   * `ffmpeg -i lagarith-rgbap.avi -c:v libx264 -preset faster -tune fastdecode -x264-params keyint=15:bframes=3:crf=17 h264-yuv444p.mp4`
-
+   * `ffmpeg -i lagarith-rgbap.avi -c:v libx264 -preset faster -tune fastdecode -x264-params keyint=1:crf=17 -profile:v high -level:v 5.1 h264-yuv444p.mp4`
+.\ffmpeg.exe -y -i lagarith-rgbap.avi -pix_fmt yuv420p -c:v libx264 -preset superfast -tune fastdecode -x264-params keyint=1:crf=17 -level:v 5.1 h264-yuv420p.mp4
 * H.265
 
    * Davinci Resolve decode: yes (GPU accelerated in Studio) in mp4
