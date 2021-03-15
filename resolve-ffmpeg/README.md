@@ -1,5 +1,7 @@
 # CODECs in DaVinci Resolve 17.1 and FFMPEG
 
+My quest: a CODEC that supports an alpha (transparency) channel.  Both for lossless and lossy video compression.
+
 ## Lossless
 
 ### With alpha channel
@@ -37,8 +39,6 @@
       * YUV 4:2:2 8-bits: `-pix_fmt yuv422p -c:v dnxhd -profile:v dnxhr_hq dnxhd-yuv422p.mov`
       * YUV 4:2:2 10-bits: `-pix_fmt yuv422p10 -c:v dnxhd -profile:v dnxhr_hqx dnxhd-yuv422p10.mov`
       * YUV 4:4:4 10-bits: `-pix_fmt yuv444p10 -c:v dnxhd -profile:v dnxhr_444 dnxhd-yuv444p10.mov`
-   * Resolve supports alpha in 12-bits decode/encode, but `ffmpeg` can not transcode to 12-bit. E.g., this fails in `ffmpeg`
-      * YUV**A** 12-bits `-pix_fmt yuva422p12 -c:v dnxhd -profile:v dnxhr_hqx dnxhd-yuva422p12.mov`
 
 ## Lossy
 
@@ -71,6 +71,12 @@
    * ffmpeg git@2021-01-09 encode: yes, with alpha
    * ffmpeg options:
       * YUV**A** 4:2:0 8-bits: `-pix_fmt yuva420p -c:v vp9 -g 1 -crf 32 vp9-yuva420p.mp4`
+
+## Thoughts
+
+The best choise would be `DNxHR`.  DaVinci Resolve 17.1 supports `DNxHR` with alpha in 12-bits decode/encode, what makes it a good candidate.  However, ffmpeg can not transcode to 12-bit.
+
+The second best seems `Apple ProRes`.  DaVinci Resolve 17.1 can import it with alpha channel, but not export it.  ffmpeg can transcode it.
 
 ## References
 
