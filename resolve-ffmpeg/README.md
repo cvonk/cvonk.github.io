@@ -1,6 +1,12 @@
 # Exchange video with alpha channel between DaVinci Resolve and FFMPEG
 
-My quest: exchange video with an alpha (transparency) channel between DaVinci Resolve and FFMPEG.
+Ideally, there would be a video codec that supports transpacency and that both DaVinci Resolve and FFMPEG can decode and encode.
+
+The best choice would be `DNxHR`.  DaVinci Resolve 17.1 supports `DNxHR` with alpha in 12-bits decodes/encodes, what makes it a great candidate.  However, ffmpeg can encode to 10-bit, but not to 12-bit.  DaVinci Resolve on the other hand can't decode 10-bits.
+
+Going for second best, the choice is the `Apple ProRes` CODEC.  DaVinci Resolve 17.1 can import it with alpha channel, but not export it.  ffmpeg can decode/encode it with alpha.  The odd times that I need an encode from DaVinci Resolve with alpha, I can alway resort to DNxHR.
+
+The details of this quest follow below:
 
 ## Lossless
 
@@ -71,12 +77,6 @@ My quest: exchange video with an alpha (transparency) channel between DaVinci Re
    * ffmpeg git@2021-01-09 encode: yes, with alpha
    * ffmpeg options:
       * YUV**A** 4:2:0 8-bits: `-pix_fmt yuva420p -c:v vp9 -g 1 -crf 32 vp9-yuva420p.mp4`
-
-## Thoughts
-
-The best choice would be `DNxHR`.  DaVinci Resolve 17.1 supports `DNxHR` with alpha in 12-bits decode/encode, what makes it a great candidate.  However, ffmpeg can not transcode to 12-bit.
-
-The second best choice would be `Apple ProRes`.  DaVinci Resolve 17.1 can import it with alpha channel, but not export it.  ffmpeg can decode/encode it with alpha.
 
 ## References
 
