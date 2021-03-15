@@ -74,9 +74,9 @@ My quest: a CODEC that supports an alpha (transparency) channel.  Both for lossl
 
 ## Thoughts
 
-The best choise would be `DNxHR`.  DaVinci Resolve 17.1 supports `DNxHR` with alpha in 12-bits decode/encode, what makes it a good candidate.  However, ffmpeg can not transcode to 12-bit.
+The best choice would be `DNxHR`.  DaVinci Resolve 17.1 supports `DNxHR` with alpha in 12-bits decode/encode, what makes it a great candidate.  However, ffmpeg can not transcode to 12-bit.
 
-The second best seems `Apple ProRes`.  DaVinci Resolve 17.1 can import it with alpha channel, but not export it.  ffmpeg can transcode it.
+The second best choice would be `Apple ProRes`.  DaVinci Resolve 17.1 can import it with alpha channel, but not export it.  ffmpeg can decode/encode it with alpha.
 
 ## References
 
