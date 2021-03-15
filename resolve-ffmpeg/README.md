@@ -44,9 +44,9 @@ The details of this quest follow below:
    * ffmpeg git@2021-01-09 decode: yes
    * ffmpeg git@2021-01-09 encode: yes, but no 12-bit
    * ffmpeg options:
-      * YUV 4:2:2 8-bits: `-pix_fmt yuv422p -c:v dnxhd -profile:v dnxhr_hq dnxhd-yuv422p.mov`
-      * YUV 4:2:2 10-bits: `-pix_fmt yuv422p10 -c:v dnxhd -profile:v dnxhr_hqx dnxhd-yuv422p10.mov`
-      * YUV 4:4:4 10-bits: `-pix_fmt yuv444p10 -c:v dnxhd -profile:v dnxhr_444 dnxhd-yuv444p10.mov`
+      * YUV 4:2:2 8-bits: `-pix_fmt yuv422p -c:v dnxhd -profile:v dnxhr_hq dnxhr-yuv422p.mov`
+      * YUV 4:2:2 10-bits: `-pix_fmt yuv422p10 -c:v dnxhd -profile:v dnxhr_hqx dnxhr-yuv422p10.mov`
+      * YUV 4:4:4 10-bits: `-pix_fmt yuv444p10 -c:v dnxhd -profile:v dnxhr_444 dnxhr-yuv444p10.mov`
 
 ## Lossy
 
