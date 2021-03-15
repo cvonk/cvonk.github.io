@@ -1,10 +1,11 @@
 # Exchange video with alpha channel between DaVinci Resolve and FFMPEG
 
-In an ideal world, there would be a video Coder/Decoder (CODEC) that supports transpacency with full support in DaVinci Resolve and FFMPEG.
+In an ideal world, there would be a video Coder/Decoder (CODEC) that supports transpacency with full support in DaVinci Resolve and FFMPEG.  The `DNxHR` CODEC would be a great candidate, *if* only both DaVinci Resolve and FFMPEG would support the same bitdepth with alpha.
 
-After trail and error, my choice is `Apple ProRes` CODEC.  DaVinci Resolve 17.1 can import it with alpha channel, but not export it.  ffmpeg can decode/encode it with alpha.  The odd times that I need an encode from DaVinci Resolve with alpha, I can alway resort to DNxHR.
+For lossless source video, the `Apple ProRes` is a good choice.  DaVinci Resolve 17.1 can decode this with an alpha channel, but not encode it.  FFMPEG can decode/encode it with alpha.  The odd times where an encode from DaVinci Resolve with alpha is needed, one can alway resort to the `DNxHR` CODEC.
 
-A better choise would be `DNxHR` if both DaVinci Resolve and FFMPEG supported the same bitdepth with alpha.  Currently, it seems that DaVinci Resolve 17.1 supports alpha in 12-bits decodes/encodes, what makes it a great candidate.  However, FFMPEG can encode to 10-bit, but not to 12-bit.  DaVinci Resolve on the other hand can't decode 10-bits.
+For lossy source video, `H.264` remains a good choice.
+
 
 Regarding lossy compression, currently `VP9` seems to be only contender that supports an alpha channel.
 
