@@ -6,6 +6,8 @@ The best choice would be `DNxHR`.  DaVinci Resolve 17.1 supports `DNxHR` with al
 
 Going for second best, the choice is the `Apple ProRes` CODEC.  DaVinci Resolve 17.1 can import it with alpha channel, but not export it.  ffmpeg can decode/encode it with alpha.  The odd times that I need an encode from DaVinci Resolve with alpha, I can alway resort to DNxHR.
 
+Regarding lossy compression, currently VP9 seems to be only contender that supports an alpha channel.
+
 The details of this quest follow below:
 
 ## Lossless
