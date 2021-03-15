@@ -6,7 +6,7 @@
 
 * Apple ProRes:
 
-    * Davinci Resolve decode: yes, *with* alpha
+    * Davinci Resolve decode: YUV 4:4:4 (10-bits) *with* alpha, YUV 4:4:4 (10-bits), YUV 4:2:2 (10-bits)
     * Davinci Resolve encode: none
     * ffmpeg git@2021-01-09 decode: yes, *with* alpha
     * ffmpeg git@2021-01-09 encode: yes, *with* alpha
@@ -20,23 +20,25 @@
 
 * GoPro CineForm:
 
-   * Davinci Resolve decode: yes, *without* alpha. Native, YUV 10-bit, RGB 16-bit
-   * Davinci Resolve encode: YUV 10-bit (RGB 16-bit alpha export in `.avi`)
+   * Davinci Resolve decode: Native, YUV 10-bit, RGB 16-bit. *No* alpha. 
+   * Davinci Resolve encode: YUV 10-bit, RGB 16-bit. *No* alpha
    * ffmpeg git@2021-01-09 decode: yes, with alpha
    * ffmpeg git@2021-01-09 encode: yes, with alpha
    * ffmpeg options:
       * RGB 12-bits: `-pix_fmt gbrp12 -c:v cfhd -quality film3+ cineform-rgbp12.avi`
 
-* DNxHD, *no alpha* support in decode CODEC (?)
+* DNxHR
 
-   * Davinci Resolve decode: yes
-   * Davinci Resolve encode: 444 (10/12-bit), HQX (10/12-bit), HQ, LB, SQ (alpha export except LB) in `.mov`
+   * Davinci Resolve decode: YUV 4:4:4 (10-bits), YUV (4:2:2 8/10-bits). Somehow *no alpha* support, for all I could detect
+   * Davinci Resolve encode: YUV 4:4:4 10/12-bit, YUV 4:2:2 10/12-bit, YUV 4:2:2 8-bit.  *Alpha* in 12-bit except for LB.
    * ffmpeg git@2021-01-09 decode: yes
-   * ffmpeg git@2021-01-09 encode: yes
+   * ffmpeg git@2021-01-09 encode: yes, but no 12-bit
    * ffmpeg options:
       * YUV 4:2:2 8-bits: `-pix_fmt yuv422p -c:v dnxhd -profile:v dnxhr_hq dnxhd-yuv422p.mov`
       * YUV 4:2:2 10-bits: `-pix_fmt yuv422p10 -c:v dnxhd -profile:v dnxhr_hqx dnxhd-yuv422p10.mov`
       * YUV 4:4:4 10-bits: `-pix_fmt yuv444p10 -c:v dnxhd -profile:v dnxhr_444 dnxhd-yuv444p10.mov`
+   * Resolve supports alpha in 12-bits decode/encode, but `ffmpeg` can not transcode to 12-bit. E.g., this fails in `ffmpeg`
+      * YUV**A** 12-bits `-pix_fmt yuva422p12 -c:v dnxhd -profile:v dnxhr_hqx dnxhd-yuva422p12.mov`
 
 ## Lossy
 
@@ -53,7 +55,7 @@
 
 * H.265
 
-   * Davinci Resolve decode: yes, *without* alpha (GPU accelerated in Studio)
+   * Davinci Resolve decode: YUV 4:2:0 (8/10-bits). *No* alpha support. (GPU accelerated in Studio)
    * Davinci Resolve encode: Studio only (GPU accelerated on Intel)
    * ffmpeg git@2021-01-09 decode: yes, no alpha (yet)
    * ffmpeg git@2021-01-09 encode: yes, no alpha (yet)
@@ -63,7 +65,7 @@
 
 * VP9
 
-   * Davinci Resolve decode: yes, *without* alpha
+   * Davinci Resolve decode: YUV 4:2:0 8-bits. *No* alpha support.
    * Davinci Resolve encode: none
    * ffmpeg git@2021-01-09 decode: yes, with alpha
    * ffmpeg git@2021-01-09 encode: yes, with alpha
