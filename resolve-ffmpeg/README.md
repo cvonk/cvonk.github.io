@@ -84,6 +84,7 @@ The second best choice would be `Apple ProRes`.  DaVinci Resolve 17.1 can import
 * [Alpha Masking with FFMPEG](https://curiosalon.github.io/blog/ffmpeg-alpha-masking/)
 * [Avisynth+ <--> Davinci Resolve 16](https://forum.doom9.org/showthread.php?t=176877)
 * [Apple ProRes White Paper](https://www.apple.com/final-cut-pro/docs/Apple_ProRes_White_Paper.pdf)
+* [Tutorial - Using FFMPEG for DNxHD/DNxHR encoding, resizing, and batch encoding](http://macilatthefront.blogspot.com/2018/12/tutorial-using-ffmpeg-for-dnxhddnxhr.html)
 * `ffmpeg -h encoder=prores_ks` `ffmpeg -h encoder=prores_aw` `ffmpeg -h encoder=prores`
 * `ffmpeg -h encoder=cfhd`
 * `ffmpeg -h encoder=dnxhd`
