@@ -12,7 +12,7 @@ The details of this quest follow below:
 
 ## Lossless
 
-### With alpha channel
+### Common alpha channel support
 
 * Apple ProRes:
 
@@ -26,7 +26,7 @@ The details of this quest follow below:
       * YUV 4:2:2 10-bits: `-pix_fmt yuv422p10 -c:v prores_ks -profile:v hq  prores-yuv422p10.mov`
       * YUV 4:4:4 10-bits: `-pix_fmt yuv444p10 -c:v prores_ks -profile:v 4444xq  prores-yuv444p10.mov`
 
-### No alpha channel
+### No common alpha channel support
 
 * GoPro CineForm:
 
@@ -50,7 +50,7 @@ The details of this quest follow below:
 
 ## Lossy
 
-### No alpha channel
+### No common alpha channel support
 
 * H.264, *no* alpha support in CODEC
 
