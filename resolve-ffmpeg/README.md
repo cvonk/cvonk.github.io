@@ -1,4 +1,4 @@
-# Exchange video with alpha channel between DaVinci Resolve and FFMPEG
+# Exchange video between DaVinci Resolve and FFMPEG
 
 In an ideal world, there would be a video Coder/Decoder (CODEC) that supports transpacency with full support in [Blackmagic Design's DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve/) and [FFMPEG](https://www.ffmpeg.org/).  The `DNxHR` CODEC would be a great candidate, *if* only both DaVinci Resolve and FFMPEG would support the same bitdepth with alpha.
 
