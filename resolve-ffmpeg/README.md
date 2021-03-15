@@ -1,6 +1,6 @@
-# CODECs in DaVinci Resolve 17.1 and FFMPEG
+# Exchange video with alpha channel between DaVinci Resolve and FFMPEG
 
-My quest: a CODEC that supports an alpha (transparency) channel.  Both for lossless and lossy video compression.
+My quest: find a CODEC that supports an alpha (transparency) channel.  Both for lossless and lossy video compression.
 
 ## Lossless
 
