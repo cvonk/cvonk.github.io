@@ -2,7 +2,7 @@
 
 In an ideal world, there would be a video Coder/Decoder (CODEC) that supports transpacency with full support in [Blackmagic Design's DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve/) and [FFMPEG](https://www.ffmpeg.org/).  The `DNxHR` CODEC would be a great candidate, *if* only both DaVinci Resolve and FFMPEG would support the same bitdepth with alpha.  This leaves us with:
 
-* For *lossless* source videos, the `Apple ProRes` is a good choice.  DaVinci Resolve 17.1 can decode this with an alpha channel, but not encode it.  FFMPEG can decode/encode it with alpha.  The odd times where an encode from DaVinci Resolve with alpha is needed, one can alway resort to the `DNxHR` CODEC.
+* For *lossless* source videos, the `Apple ProRes` is a good choice.  DaVinci Resolve 17.1 can decode supporting an alpha channel, but not encode it.  FFMPEG can decode/encode it with alpha.  The odd times where an encode from DaVinci Resolve with alpha is needed, one can alway resort to the `DNxHR` CODEC.
 
 * For *lossy* source videos, `H.264` remains a great choice.  Both programs support it fully.  In the odd case where lossy video with transparency is needed one can use Google's VP9.
 
