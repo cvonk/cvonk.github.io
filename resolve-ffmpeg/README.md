@@ -12,9 +12,15 @@ The details of this quest follow below:
 
 ## Lossless
 
+Lossless video compression is great for source and intermedaite material in video editing.  Lossless video compression makes the video files smaller to work with while not loosing any quality.
+
+Often video sources are delivered using many different CODECs.  These need to be preprocessed using a CODEC that Davinci Resolve can decode.  For the preprocessing, I most often use [AviSynth+](http://avisynth.nl/index.php/AviSynth+) scripts.  These scripts are rendered using e.g. [ffmpeg](https://www.ffmpeg.org/).
+
 ### Common alpha channel support
 
-* Apple ProRes:
+Computer graphics sources commonly have an alpha (transparency) channel.  I found that the only CODEC that FFMPEG can export to and DaVinci Resolve and import from is:
+
+* Apple ProRes
 
     * Davinci Resolve decode: YUV 4:4:4 (10-bits) *with* alpha, YUV 4:4:4 (10-bits), YUV 4:2:2 (10-bits)
     * Davinci Resolve encode: none
@@ -28,7 +34,7 @@ The details of this quest follow below:
 
 ### No common alpha channel support
 
-* GoPro CineForm:
+* GoPro CineForm
 
    * Davinci Resolve decode: Native, YUV 10-bit, RGB 16-bit. *No* alpha. 
    * Davinci Resolve encode: YUV 10-bit, RGB 16-bit. *No* alpha
@@ -50,9 +56,11 @@ The details of this quest follow below:
 
 ## Lossy
 
+Lossy compression is great for distributing a *completed* movie. Lossy compression makes video files significantly smaller by reducing the quality.  Polpular CODECs are the Moving Picture Experts Group's H.264 and H.265, and Google's VP9.
+
 ### No common alpha channel support
 
-* H.264, *no* alpha support in CODEC
+* H.264/AVC, *no* alpha support in CODEC
 
    * Davinci Resolve decode: yes (GPU accelerated in Studio)
    * Davinci Resolve encode: yes (GPU accelerated in Studio)
