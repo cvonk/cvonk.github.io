@@ -1,6 +1,6 @@
 # Exchange video with alpha channel between DaVinci Resolve and FFMPEG
 
-Ideally, there would be a video Coder/Decoder (CODEC) that supports transpacency and that both DaVinci Resolve and FFMPEG can decode and encode.
+In an ideal world, there would be a video Coder/Decoder (CODEC) that supports transpacency with full support in DaVinci Resolve and FFMPEG.
 
 After trail and error, my choice is `Apple ProRes` CODEC.  DaVinci Resolve 17.1 can import it with alpha channel, but not export it.  ffmpeg can decode/encode it with alpha.  The odd times that I need an encode from DaVinci Resolve with alpha, I can alway resort to DNxHR.
 
