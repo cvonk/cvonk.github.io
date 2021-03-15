@@ -54,7 +54,7 @@ Computer graphics sources commonly have an alpha (transparency) channel.  I foun
 
 ## Lossy
 
-Lossy compression is great for distributing a *completed* movie. Lossy compression makes video files significantly smaller by reducing the quality.  Polpular CODECs are the Moving Picture Experts Group's H.264 and H.265, and Google's VP9.
+Lossy compression is great for distributing a *completed* movie. Lossy compression makes the video file significantly smaller by reducing the quality.  Popular lossy CODECs are the Moving Picture Experts Group's H.264 and H.265, and Google's VP9.
 
 ### No common alpha channel support
 
