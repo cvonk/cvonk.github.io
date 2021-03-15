@@ -22,7 +22,7 @@ The details of this quest follow below:
     * ffmpeg git@2021-01-09 encode: yes, *with* alpha
     * ffmpeg options:
       * YUV**A** 4:4:4 10-bits: `-pix_fmt yuva444p10 -c:v prores_ks -profile:v 4444xq  prores-yuva444p10.mov`
-    * ffmpeg options without alpha:
+    * FYI the ffmpeg options without alpha:
       * YUV 4:2:2 10-bits: `-pix_fmt yuv422p10 -c:v prores_ks -profile:v hq  prores-yuv422p10.mov`
       * YUV 4:4:4 10-bits: `-pix_fmt yuv444p10 -c:v prores_ks -profile:v 4444xq  prores-yuv444p10.mov`
 
