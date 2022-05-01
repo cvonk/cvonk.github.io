@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="255.119px" height="189.921px" viewBox="0 0 255.119 189.921" enable-background="new 0 0 255.119 189.921"
+	 xml:space="preserve">
+<g>
+	<g>
+		<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="164.56" y1="20.655" x2="164.56" y2="184.251"/>
+		<g>
+			<polygon fill="#231F20" points="161.493,23.14 162.042,23.651 164.56,20.942 167.077,23.651 167.627,23.14 164.56,19.841 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="220.29" y1="121.891" x2="5.669" y2="121.89"/>
+		<g>
+			<polygon fill="#231F20" points="217.805,118.824 217.293,119.373 220.002,121.89 217.293,124.41 217.805,124.958 221.103,121.89 
+							"/>
+		</g>
+	</g>
+</g>
+<g>
+	<line fill="none" stroke="#993300" stroke-width="2" stroke-miterlimit="10" x1="90.354" y1="127.558" x2="79.501" y2="116.705"/>
+	<line fill="none" stroke="#993300" stroke-width="2" stroke-miterlimit="10" x1="79.016" y1="127.074" x2="89.87" y2="116.218"/>
+</g>
+<text transform="matrix(1 0 0 1 226.7725 127.5601)" font-family="'STIX-Regular'" font-size="12">ℜ</text>
+<text transform="matrix(1 0 0 1 237.2607 127.5601)" font-family="'STIX-Italic'" font-size="12">(s)</text>
+<text transform="matrix(1 0 0 1 153.0713 14.1733)" font-family="'STIX-Regular'" font-size="12">ℑ</text>
+<text transform="matrix(1 0 0 1 162.2158 14.1733)" font-family="'STIX-Italic'" font-size="12">(s)</text>
+<text transform="matrix(1 0 0 1 79.0156 136.062)" fill="#993300" font-family="'STIX-Italic'" font-size="12">p</text>
+<text transform="matrix(1 0 0 1 85.0635 140.062)" fill="#993300" font-family="'STIX-Italic'" font-size="7">1,2</text>
+<text transform="matrix(1 0 0 1 73.0156 115.562)" fill="#993300" font-family="'STIX-Italic'" font-size="10">2</text>
+</svg>

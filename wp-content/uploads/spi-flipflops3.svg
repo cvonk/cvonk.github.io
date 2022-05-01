@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1068.661px" height="243.78px" viewBox="0 0 1068.661 243.78" enable-background="new 0 0 1068.661 243.78"
+	 xml:space="preserve">
+<rect x="17.008" y="17.007" fill="#E8E7F3" stroke="#272525" stroke-miterlimit="10" width="479.055" height="181.418"/>
+<rect x="85.04" y="93.542" fill="#FFFFFF" stroke="#231F20" stroke-miterlimit="10" width="34.016" height="62.362"/>
+<rect x="130.394" y="93.542" fill="#FFFFFF" stroke="#231F20" stroke-miterlimit="10" width="34.016" height="62.362"/>
+<rect x="175.748" y="93.542" fill="#FFFFFF" stroke="#231F20" stroke-miterlimit="10" width="34.016" height="62.362"/>
+<rect x="221.103" y="93.542" fill="#FFFFFF" stroke="#231F20" stroke-miterlimit="10" width="34.016" height="62.362"/>
+<rect x="266.456" y="93.542" fill="#FFFFFF" stroke="#231F20" stroke-miterlimit="10" width="34.016" height="62.362"/>
+<rect x="311.811" y="93.542" fill="#FFFFFF" stroke="#231F20" stroke-miterlimit="10" width="34.016" height="62.362"/>
+<rect x="357.166" y="93.542" fill="#FFFFFF" stroke="#231F20" stroke-miterlimit="10" width="34.016" height="62.362"/>
+<rect x="402.52" y="93.542" fill="#FFFFFF" stroke="#231F20" stroke-miterlimit="10" width="34.016" height="62.362"/>
+<rect x="447.875" y="93.542" fill="#FFFFFF" stroke="#231F20" stroke-miterlimit="10" width="34.016" height="62.362"/>
+<text transform="matrix(1 0 0 1 522.043 170.0776)" fill="#231F20" font-family="'MyriadPro-Regular'" font-size="24">SCLK</text>
+<text transform="matrix(1 0 0 1 520.3867 119.0542)" fill="#00A551" font-family="'MyriadPro-Regular'" font-size="24">MOSI</text>
+<text transform="matrix(1 0 0 1 520.3867 36.8491)" fill="#00ADEE" font-family="'MyriadPro-Regular'" font-size="24">MISO</text>
+<text transform="matrix(1 0 0 1 218.1729 229.606)" fill="#231F20" font-family="'MyriadPro-Regular'" font-size="30">Master</text>
+<rect x="606.615" y="17.007" fill="#E8E7F3" stroke="#272525" stroke-miterlimit="10" width="445.039" height="181.418"/>
+<text transform="matrix(1 0 0 1 800.4902 229.606)" fill="#231F20" font-family="'MyriadPro-Regular'" font-size="30">Slave</text>
+<text transform="matrix(1 0 0 1 87.9819 82.2046)" fill="#231F20" font-family="'MyriadPro-Regular'" font-size="26">b0</text>
+<text transform="matrix(1 0 0 1 86.7129 121.8882)" fill="#231F20" font-family="'MyriadPro-Regular'" font-size="12">D</text>
+<text transform="matrix(1 0 0 1 132.0674 121.8882)" fill="#231F20" font-family="'MyriadPro-Regular'" font-size="12">D</text>
+<text transform="matrix(1 0 0 1 177.4219 121.8882)" fill="#231F20" font-family="'MyriadPro-Regular'" font-size="12">D</text>
+<text transform="matrix(1 0 0 1 222.7754 121.8882)" fill="#231F20" font-family="'MyriadPro-Regular'" font-size="12">D</text>
+<text transform="matrix(1 0 0 1 268.1299 121.8882)" fill="#231F20" font-family="'MyriadPro-Regular'" font-size="12">D</text>
+<text transform="matrix(1 0 0 1 313.4844 121.8882)" fill="#231F20" font-family="'MyriadPro-Regular'" font-size="12">D</text>
+<text transform="matrix(1 0 0 1 358.8389 121.8882)" fill="#231F20" font-family="'MyriadPro-Regular'" font-size="12">D</text>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="96.378" y1="155.905" x2="102.047" y2="150.236"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="102.047" y1="150.236" x2="107.717" y2="155.905"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="402.52" y1="121.889" x2="391.181" y2="121.889"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="102.047" y1="155.906" x2="102.047" y2="172.914"/>
+<text transform="matrix(1 0 0 1 133.3364 82.2046)" fill="#231F20" font-family="'MyriadPro-Regular'" font-size="26">b1</text>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="141.733" y1="155.905" x2="147.402" y2="150.236"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="147.402" y1="150.236" x2="153.071" y2="155.905"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="130.394" y1="121.889" x2="119.056" y2="121.889"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="147.402" y1="155.906" x2="147.402" y2="172.914"/>
+<text transform="matrix(1 0 0 1 178.6904 82.2046)" fill="#231F20" font-family="'MyriadPro-Regular'" font-size="26">b2</text>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="187.087" y1="155.905" x2="192.756" y2="150.236"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="192.756" y1="150.236" x2="198.426" y2="155.905"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="175.748" y1="121.889" x2="164.41" y2="121.889"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="192.756" y1="155.906" x2="192.756" y2="172.914"/>
+<text transform="matrix(1 0 0 1 224.0449 82.2046)" fill="#231F20" font-family="'MyriadPro-Regular'" font-size="26">b3</text>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="232.441" y1="155.905" x2="238.11" y2="150.236"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="238.11" y1="150.236" x2="243.78" y2="155.905"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="221.103" y1="121.889" x2="209.765" y2="121.889"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="238.11" y1="155.906" x2="238.11" y2="172.914"/>
+<text transform="matrix(1 0 0 1 269.3984 82.2046)" fill="#231F20" font-family="'MyriadPro-Regular'" font-size="26">b4</text>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="277.795" y1="155.905" x2="283.464" y2="150.236"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="283.464" y1="150.236" x2="289.134" y2="155.905"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="266.456" y1="121.889" x2="255.118" y2="121.889"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="283.464" y1="155.906" x2="283.464" y2="172.914"/>
+<text transform="matrix(1 0 0 1 314.7529 82.2046)" fill="#231F20" font-family="'MyriadPro-Regular'" font-size="26">b5</text>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="323.149" y1="155.904" x2="328.818" y2="150.235"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="328.818" y1="150.235" x2="334.488" y2="155.904"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="311.811" y1="121.888" x2="300.473" y2="121.888"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="328.818" y1="155.905" x2="328.818" y2="172.913"/>
+<text transform="matrix(1 0 0 1 360.1084 82.2046)" fill="#231F20" font-family="'MyriadPro-Regular'" font-size="26">b6</text>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="368.505" y1="155.905" x2="374.174" y2="150.236"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="374.174" y1="150.236" x2="379.844" y2="155.905"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="357.166" y1="121.889" x2="345.828" y2="121.889"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="374.174" y1="155.906" x2="374.174" y2="172.914"/>
+<text transform="matrix(1 0 0 1 404.1934 121.8882)" fill="#231F20" font-family="'MyriadPro-Regular'" font-size="12">D</text>
+<text transform="matrix(1 0 0 1 449.5479 121.8882)" fill="#231F20" font-family="'MyriadPro-Regular'" font-size="12">D</text>
+<g>
+	<g>
+		<line fill="none" stroke="#00A551" stroke-miterlimit="10" x1="625.377" y1="121.889" x2="481.89" y2="121.889"/>
+		<g>
+			<polygon fill="#00A551" points="622.064,117.799 621.382,118.532 624.994,121.887 621.382,125.246 622.064,125.978 
+				626.462,121.887 			"/>
+		</g>
+	</g>
+</g>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="1006.299" y1="172.913" x2="73.701" y2="172.913"/>
+<text transform="matrix(1 0 0 1 405.4619 82.2046)" fill="#231F20" font-family="'MyriadPro-Regular'" font-size="26">b7</text>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="413.858" y1="155.904" x2="419.527" y2="150.235"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="419.527" y1="150.235" x2="425.197" y2="155.904"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="419.527" y1="155.905" x2="419.527" y2="172.913"/>
+<text transform="matrix(1 0 0 1 454.561 82.2046)" fill="#231F20" font-family="'MyriadPro-Regular'" font-size="26">tx</text>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="459.214" y1="155.905" x2="464.883" y2="150.236"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="464.883" y1="150.236" x2="470.553" y2="155.905"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="447.875" y1="121.889" x2="436.537" y2="121.889"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="464.883" y1="162.401" x2="464.883" y2="172.087"/>
+<circle fill="#FFFFFF" stroke="#231F20" stroke-miterlimit="10" cx="464.882" cy="158.74" r="2.835"/>
+<rect x="626.457" y="93.542" fill="#FFFFFF" stroke="#231F20" stroke-miterlimit="10" width="34.017" height="62.362"/>
+<rect x="671.812" y="93.542" fill="#FFFFFF" stroke="#231F20" stroke-miterlimit="10" width="34.016" height="62.362"/>
+<rect x="717.165" y="93.542" fill="#FFFFFF" stroke="#231F20" stroke-miterlimit="10" width="34.016" height="62.362"/>
+<rect x="762.521" y="93.542" fill="#FFFFFF" stroke="#231F20" stroke-miterlimit="10" width="34.016" height="62.362"/>
+<rect x="807.874" y="93.542" fill="#FFFFFF" stroke="#231F20" stroke-miterlimit="10" width="34.016" height="62.362"/>
+<rect x="853.228" y="93.542" fill="#FFFFFF" stroke="#231F20" stroke-miterlimit="10" width="34.016" height="62.362"/>
+<rect x="898.583" y="93.542" fill="#FFFFFF" stroke="#231F20" stroke-miterlimit="10" width="34.016" height="62.362"/>
+<rect x="943.937" y="93.542" fill="#FFFFFF" stroke="#231F20" stroke-miterlimit="10" width="34.016" height="62.362"/>
+<rect x="989.292" y="93.542" fill="#FFFFFF" stroke="#231F20" stroke-miterlimit="10" width="34.016" height="62.362"/>
+<text transform="matrix(1 0 0 1 629.3994 82.2046)" fill="#231F20" font-family="'MyriadPro-Regular'" font-size="26">b0</text>
+<text transform="matrix(1 0 0 1 628.1309 121.8882)" fill="#231F20" font-family="'MyriadPro-Regular'" font-size="12">D</text>
+<text transform="matrix(1 0 0 1 673.4844 121.8882)" fill="#231F20" font-family="'MyriadPro-Regular'" font-size="12">D</text>
+<text transform="matrix(1 0 0 1 718.8398 121.8882)" fill="#231F20" font-family="'MyriadPro-Regular'" font-size="12">D</text>
+<text transform="matrix(1 0 0 1 764.1934 121.8882)" fill="#231F20" font-family="'MyriadPro-Regular'" font-size="12">D</text>
+<text transform="matrix(1 0 0 1 809.5469 121.8882)" fill="#231F20" font-family="'MyriadPro-Regular'" font-size="12">D</text>
+<text transform="matrix(1 0 0 1 854.9023 121.8882)" fill="#231F20" font-family="'MyriadPro-Regular'" font-size="12">D</text>
+<text transform="matrix(1 0 0 1 900.2559 121.8882)" fill="#231F20" font-family="'MyriadPro-Regular'" font-size="12">D</text>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="637.796" y1="155.905" x2="643.465" y2="150.236"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="643.465" y1="150.236" x2="649.134" y2="155.905"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="943.937" y1="121.889" x2="932.599" y2="121.889"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="643.465" y1="155.906" x2="643.465" y2="172.914"/>
+<text transform="matrix(1 0 0 1 674.7539 82.2046)" fill="#231F20" font-family="'MyriadPro-Regular'" font-size="26">b1</text>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="683.15" y1="155.905" x2="688.819" y2="150.236"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="688.819" y1="150.236" x2="694.489" y2="155.905"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="671.812" y1="121.889" x2="660.474" y2="121.889"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="688.819" y1="155.906" x2="688.819" y2="172.914"/>
+<text transform="matrix(1 0 0 1 720.1074 82.2046)" fill="#231F20" font-family="'MyriadPro-Regular'" font-size="26">b2</text>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="728.505" y1="155.905" x2="734.173" y2="150.236"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="734.173" y1="150.236" x2="739.843" y2="155.905"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="717.165" y1="121.889" x2="705.827" y2="121.889"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="734.173" y1="155.906" x2="734.173" y2="172.914"/>
+<text transform="matrix(1 0 0 1 765.4629 82.2046)" fill="#231F20" font-family="'MyriadPro-Regular'" font-size="26">b3</text>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="773.858" y1="155.905" x2="779.528" y2="150.236"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="779.528" y1="150.236" x2="785.198" y2="155.905"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="762.521" y1="121.889" x2="751.183" y2="121.889"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="779.528" y1="155.906" x2="779.528" y2="172.914"/>
+<text transform="matrix(1 0 0 1 810.8164 82.2046)" fill="#231F20" font-family="'MyriadPro-Regular'" font-size="26">b4</text>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="819.212" y1="155.905" x2="824.882" y2="150.236"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="824.882" y1="150.236" x2="830.552" y2="155.905"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="807.874" y1="121.889" x2="796.536" y2="121.889"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="824.882" y1="155.906" x2="824.882" y2="172.914"/>
+<text transform="matrix(1 0 0 1 856.1699 82.2046)" fill="#231F20" font-family="'MyriadPro-Regular'" font-size="26">b5</text>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="864.567" y1="155.904" x2="870.235" y2="150.235"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="870.235" y1="150.235" x2="875.905" y2="155.904"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="853.228" y1="121.888" x2="841.89" y2="121.888"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="870.235" y1="155.905" x2="870.235" y2="172.913"/>
+<text transform="matrix(1 0 0 1 901.5254 82.2046)" fill="#231F20" font-family="'MyriadPro-Regular'" font-size="26">b6</text>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="909.923" y1="155.905" x2="915.591" y2="150.236"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="915.591" y1="150.236" x2="921.261" y2="155.905"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="898.583" y1="121.889" x2="887.245" y2="121.889"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="915.591" y1="155.906" x2="915.591" y2="172.914"/>
+<text transform="matrix(1 0 0 1 945.6113 121.8882)" fill="#231F20" font-family="'MyriadPro-Regular'" font-size="12">D</text>
+<text transform="matrix(1 0 0 1 990.9648 121.8882)" fill="#231F20" font-family="'MyriadPro-Regular'" font-size="12">D</text>
+<g>
+	<g>
+		<polyline fill="none" stroke="#00ADEE" stroke-miterlimit="10" points="1023.308,121.889 1034.646,121.889 1034.646,42.519 
+			73.701,42.519 73.701,121.889 83.955,121.889 		"/>
+		<g>
+			<polygon fill="#00ADEE" points="80.642,125.978 79.959,125.246 83.571,121.889 79.959,118.532 80.642,117.799 85.04,121.889 			
+				"/>
+		</g>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 946.8789 82.2046)" fill="#231F20" font-family="'MyriadPro-Regular'" font-size="26">b7</text>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="955.276" y1="155.904" x2="960.944" y2="150.235"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="960.944" y1="150.235" x2="966.614" y2="155.904"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="960.944" y1="155.905" x2="960.944" y2="172.913"/>
+<text transform="matrix(1 0 0 1 995.9785 82.2046)" fill="#231F20" font-family="'MyriadPro-Regular'" font-size="26">tx</text>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="1000.632" y1="155.905" x2="1006.3" y2="150.236"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="1006.3" y1="150.236" x2="1011.97" y2="155.905"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="989.292" y1="121.889" x2="977.954" y2="121.889"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="1006.3" y1="162.401" x2="1006.3" y2="172.087"/>
+<circle fill="#FFFFFF" stroke="#231F20" stroke-miterlimit="10" cx="1006.299" cy="158.74" r="2.835"/>
+<rect x="28.346" y="153.07" fill="#FFFFFF" stroke="#231F20" stroke-miterlimit="10" width="45.355" height="34.017"/>
+<text transform="matrix(1 0 0 1 30.8872 178.5815)" fill="#231F20" font-family="'MyriadPro-Regular'" font-size="26">sclk</text>
+</svg>

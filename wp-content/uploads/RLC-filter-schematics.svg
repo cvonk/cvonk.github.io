@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="294.803px" height="124.724px" viewBox="0 0 294.803 124.724" enable-background="new 0 0 294.803 124.724"
+	 xml:space="preserve">
+<text transform="matrix(1 0 0 1 109.8711 14.1724)" fill="#231F20" font-family="'MyriadPro-Regular'" font-size="14">R</text>
+<text transform="matrix(1 0 0 1 183.7822 14.1724)" fill="#231F20" font-family="'MyriadPro-Regular'" font-size="14">L</text>
+<text transform="matrix(1 0 0 1 201.6445 76.5347)" fill="#231F20" font-family="'MyriadPro-Regular'" font-size="14">C</text>
+<circle fill="none" stroke="#231F20" stroke-width="2" stroke-miterlimit="10" cx="39.684" cy="70.865" r="17.008"/>
+<g>
+	<line fill="none" stroke="#231F20" stroke-width="2" stroke-miterlimit="10" x1="219.684" y1="77.953" x2="248.03" y2="77.953"/>
+	<line fill="none" stroke="#231F20" stroke-width="2" stroke-miterlimit="10" x1="219.685" y1="69.449" x2="248.03" y2="69.449"/>
+</g>
+<g>
+	<g>
+		
+			<line fill="none" stroke="#00ADEE" stroke-width="0.952" stroke-miterlimit="10" x1="272.127" y1="31.181" x2="272.127" y2="112.353"/>
+		<g>
+			<polygon fill="#00ADEE" points="268.233,109.198 268.931,108.549 272.126,111.987 275.322,108.549 276.02,109.198 
+				272.126,113.385 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		
+			<line fill="none" stroke="#00ADEE" stroke-width="0.952" stroke-miterlimit="10" x1="68.031" y1="31.181" x2="68.031" y2="112.353"/>
+		<g>
+			<polygon fill="#00ADEE" points="64.138,109.198 64.835,108.549 68.03,111.987 71.227,108.549 71.924,109.198 68.03,113.385 			
+				"/>
+		</g>
+	</g>
+</g>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="39.684" y1="119.057" x2="39.684" y2="25.511"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="235.276" y1="119.057" x2="235.276" y2="79.369"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="235.275" y1="68.031" x2="235.275" y2="25.512"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="88.125" y1="25.511" x2="39.685" y2="25.511"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="277.795" y1="119.054" x2="39.685" y2="119.054"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="161.574" y1="25.511" x2="136.314" y2="25.511"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="277.796" y1="25.511" x2="212.851" y2="25.511"/>
+<text transform="matrix(1 0 0 1 73.7007 73.7002)" fill="#00ADEE" font-family="'MyriadPro-Regular'" font-size="12">u(t)</text>
+<text transform="matrix(1 0 0 1 277.7949 73.7002)" fill="#00ADEE" font-family="'MyriadPro-Regular'" font-size="12">y(t)</text>
+<rect x="88.125" y="19.842" fill="none" stroke="#231F20" stroke-width="1.633" stroke-miterlimit="10" width="48.188" height="11.339"/>
+<g>
+	<path fill="none" stroke="#231F20" stroke-width="2" stroke-miterlimit="10" d="M161.574,25.513c0-3.523,2.855-6.379,6.378-6.379
+		s6.378,2.856,6.378,6.379"/>
+	<path fill="none" stroke="#231F20" stroke-width="2" stroke-miterlimit="10" d="M174.331,25.512c0-3.523,2.854-6.379,6.378-6.379
+		c3.522,0,6.378,2.856,6.378,6.379"/>
+	<path fill="none" stroke="#231F20" stroke-width="2" stroke-miterlimit="10" d="M187.086,25.512c0-3.523,2.855-6.379,6.378-6.379
+		s6.378,2.856,6.378,6.379"/>
+	<path fill="none" stroke="#231F20" stroke-width="2" stroke-miterlimit="10" d="M199.842,25.512c0-3.523,2.855-6.379,6.378-6.379
+		s6.378,2.856,6.378,6.379"/>
+</g>
+</svg>

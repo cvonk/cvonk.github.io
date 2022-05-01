@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="161.575px" height="79.37px" viewBox="0 0 161.575 79.37" enable-background="new 0 0 161.575 79.37" xml:space="preserve">
+<g>
+	<g>
+		
+			<line fill="none" stroke="#EC1C24" stroke-width="0.625" stroke-miterlimit="10" x1="45.354" y1="59.527" x2="68.771" y2="59.527"/>
+		<g>
+			<polygon fill="#EC1C24" points="66.701,62.083 66.274,61.625 68.532,59.527 66.274,57.429 66.701,56.971 69.449,59.527 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		
+			<line fill="none" stroke="#EC1C24" stroke-width="0.5417" stroke-miterlimit="10" x1="45.354" y1="26.929" x2="45.354" y2="27.559"/>
+		
+			<line fill="none" stroke="#EC1C24" stroke-width="0.5417" stroke-miterlimit="10" stroke-dasharray="1.2761,2.5523" x1="45.354" y1="30.111" x2="45.354" y2="63.291"/>
+		
+			<line fill="none" stroke="#EC1C24" stroke-width="0.5417" stroke-miterlimit="10" x1="45.354" y1="64.567" x2="45.354" y2="65.197"/>
+	</g>
+</g>
+<line fill="none" stroke="#231F20" stroke-width="2" stroke-miterlimit="10" x1="152.727" y1="22.678" x2="121.546" y2="22.678"/>
+<line fill="none" stroke="#231F20" stroke-width="2" stroke-miterlimit="10" x1="102.047" y1="22.677" x2="45.355" y2="22.677"/>
+<g>
+	<line fill="none" stroke="#231F20" stroke-width="2" stroke-miterlimit="10" x1="152.727" y1="39.685" x2="152.727" y2="8.504"/>
+	
+		<line fill="none" stroke="#231F20" stroke-width="0.7746" stroke-miterlimit="10" x1="158.74" y1="17.008" x2="152.727" y2="10.995"/>
+	
+		<line fill="none" stroke="#231F20" stroke-width="0.7746" stroke-miterlimit="10" x1="158.74" y1="22.677" x2="152.727" y2="16.664"/>
+	
+		<line fill="none" stroke="#231F20" stroke-width="0.7746" stroke-miterlimit="10" x1="158.74" y1="28.347" x2="152.727" y2="22.333"/>
+	
+		<line fill="none" stroke="#231F20" stroke-width="0.7746" stroke-miterlimit="10" x1="158.74" y1="34.36" x2="152.727" y2="28.347"/>
+	
+		<line fill="none" stroke="#231F20" stroke-width="0.7746" stroke-miterlimit="10" x1="158.74" y1="40.029" x2="152.727" y2="34.016"/>
+</g>
+<circle fill="#231F20" stroke="#231F20" stroke-width="0.3333" stroke-miterlimit="10" cx="45.355" cy="22.677" r="2.834"/>
+<g>
+	<g>
+		
+			<line fill="none" stroke="#00ADEE" stroke-width="0.625" stroke-miterlimit="10" x1="4.251" y1="22.677" x2="39.007" y2="22.677"/>
+		<g>
+			<polygon fill="#00ADEE" points="36.937,25.233 36.51,24.776 38.768,22.678 36.51,20.58 36.937,20.122 39.685,22.678 			"/>
+		</g>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 11.3389 17.0078)"><tspan x="0" y="0" fill="#00ADEE" font-family="'MyriadPro-Regular'" font-size="12">f</tspan><tspan x="3.504" y="2" fill="#00ADEE" font-family="'MyriadPro-Regular'" font-size="9">ext</tspan><tspan x="15.159" y="0" fill="#00ADEE" font-family="'MyriadPro-Regular'" font-size="12">(t)</tspan></text>
+<g>
+	<g>
+		
+			<line fill="none" stroke="#00ADEE" stroke-width="0.4677" stroke-miterlimit="10" x1="70.866" y1="17.008" x2="51.531" y2="17.008"/>
+		<g>
+			<polygon fill="#00ADEE" points="53.081,15.095 53.399,15.438 51.71,17.008 53.399,18.578 53.081,18.921 51.023,17.008 			"/>
+		</g>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 53.7451 11.3389)"><tspan x="0" y="0" fill="#00ADEE" font-family="'MyriadPro-Regular'" font-size="12">f</tspan><tspan x="3.504" y="2" fill="#00ADEE" font-family="'MyriadPro-Regular'" font-size="9">r</tspan><tspan x="6.447" y="0" fill="#00ADEE" font-family="'MyriadPro-Regular'" font-size="12">(t)</tspan></text>
+<text transform="matrix(1 0 0 1 70.8667 62.3618)"><tspan x="0" y="0" fill="#EC1C24" font-family="'MyriadPro-Regular'" font-size="12">x(t)  </tspan><tspan x="0" y="14.4" fill="#EC1C24" font-family="'MyriadPro-Regular'" font-size="12">displacement</tspan></text>
+<text transform="matrix(1 0 0 1 94.5151 11.3389)" fill="#231F20" font-family="'MyriadPro-Regular'" font-size="14">R</text>
+<polyline fill="none" stroke="#231F20" stroke-width="2" stroke-miterlimit="10" points="73.701,17.008 121.889,17.008 
+	121.889,28.347 73.701,28.347 "/>
+<line fill="none" stroke="#231F20" stroke-width="2" stroke-miterlimit="10" x1="102.046" y1="17.008" x2="102.046" y2="28.347"/>
+</svg>
