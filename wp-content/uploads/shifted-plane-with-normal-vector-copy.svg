@@ -1,239 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 214.828 191.791" enable-background="new 0 0 214.828 191.791" xml:space="preserve">
-<style type="text/css">
-<![CDATA[
-@font-face{font-family:'STIXMathJax_Main-Italic';src:url("data:;base64,\
-T1RUTwADACAAAQAQQ0ZGIBY2evgAAACQAAAEnUdQT1OwHb8pAAAFMAAAAGhjbWFwAVkBUwAAADwA\\
-AABUAAAAAQAAAAMAAAAMAAQASAAAAA4ACAACAAYAQwBOAFAAXgBrAG///wAAAEMATgBQAF4AawBv\\
-////vv+0/7P/pv+a/5cAAQAAAAAAAAAAAAAAAAAAAQAEAgABAQEYU1RJWE1hdGhKYXhfTWFpbi1J\\
-dGFsaWMAAQEBJvgbAfgcBB7hajP/DAL4HQwV/Fn7Zvoe+cgF+LUP+MIRqhwEfhIAAwIAAQG4Ab4B\\
-y0NvcHlyaWdodCAoYykgMjAwMS0yMDExIGJ5IHRoZSBTVEkgUHViIENvbXBhbmllcywgY29uc2lz\\
-dGluZyBvZiB0aGUgQW1lcmljYW4gQ2hlbWljYWwgU29jaWV0eSwgdGhlIEFtZXJpY2FuIEluc3Rp\\
-dHV0ZSBvZiBQaHlzaWNzLCB0aGUgQW1lcmljYW4gTWF0aGVtYXRpY2FsIFNvY2lldHksIHRoZSBB\\
-bWVyaWNhbiBQaHlzaWNhbCBTb2NpZXR5LCBFbHNldmllciwgSW5jLiwgYW5kIFRoZSBJbnN0aXR1\\
-dGUgb2YgRWxlY3RyaWNhbCBhbmQgRWxlY3Ryb25pYyBFbmdpbmVlcnMsIEluYy4gIFBvcnRpb25z\\
-IGNvcHlyaWdodCAoYykgMTk5OC0yMDAzIGJ5IE1pY3JvUHJlc3MsIEluYy4gIFBvcnRpb25zIGNvcHlyaWdodCAoYykgMTk5MCBieSBFbHNldmllciwgSW5jLiAgQWxsIHJpZ2h0cyByZXNlcnZlZC4K\\
-Q29weXJpZ2h0IChjKSAyMDEzIFRoZSBNYXRoSmF4IENvbnNvcnRpdW1JdGFsaWMvRlNUeXBlIDAg\\
-ZGVmAAAAACQALwAxAD8ATABQAAcCAAEABABmAM8BRAFpAeUCPvhrDnm4+O+vAflF+SwVdgZ7g4GF\\
-dxuCf4uSdx+aYWGNahs8P3BdSx/7Aj0++xf7IRr7OfcAK/ct8tu29eUeeZoFMTRPbjkb+wNLzPcg\\
-9wKv9wbT2B/GwtGx1RvjvFMglx+diAUOfJ+Gn/j5nxITYPlr+SEV+1p7BsSGl4FnGn+JgIV2HiH8\\
-GPtj+IcF+zR7BrqjeGiaH/sJ/DNn+xR9e1ODGXv3WpsHV495lqcamI6fkaAe9wb4OgUToPd6/LoF\\
-nQb3JviPsPcVjY3KmRkO3Yuf97Gw962pAfcm+SEVewfEhJmDcBp8h3Z+XB77CPwyeUqCglKDGXv3\\
-iJsHVZF8l6IampKgkqYewPdVBYWloYm1G+TRnrG5H7StpsLBGutEv/snHkhOFaKRnZOnG927aTJK\\
-cF9fch95bGiFTRt5houQbh8OIPkanwH4OvfBFftJ+AEFTwb7SfwBBc8G9yL3tQWMBvcj+7UFDjaA\\
-v2KfEhNA+GH4QBX7R3uZBqSXhIB3WlstQx9gavcM+FyFkVB+ZIRQhBl7nQetmoV5jR+Jeoh0flv7IfykGNYGu/dIs6ubX6VNnWgZE4BMq594qBuzpKTfuR98loaChoKGgxlseX+AfBt4dLDnZB9m4/cn\\
-9xeqn7qOGQ5ugKD4LqABpt/3pd8D+Gj3wRXjT786YmOCdmQeIlNA+wf7BBo0wFfpzcukxcUezcyz\\
-49caN6QVP28tXUweVWRlbl8bXGyqx9qn2rnRH8ezt6q3G7anak4fDnmd+SGZBosMCqoKtQuikI6O\\
-j5CQkJKPDAz5LxT4pRUAAAAAAQAAAAoAHgAsAAFERkxUAAgABAAAAAD//wABAAAAAWtlcm4ACAAA\\
-AAEAAAABAAQAAgAAAAEACAABACYABAAAAAMAEAAaACAAAgAB//sABv/0AAEABv/KAAEABgAGAAEA\\
-AwACAAMABQ==")}
-@font-face{font-family:'STIXMathJax_Main-Regular';src:url("data:;base64,\
-T1RUTwACACAAAQAAQ0ZGIDGKrhsAAABYAAACl2NtYXAACSHHAAAALAAAACwAAAABAAAAAwAAAAwA\\
-BAAgAAAABAAEAAEAACGS//8AACGS///ebwABAAAAAAEABAIAAQEBGVNUSVhNYXRoSmF4X01haW4t\\
-UmVndWxhcgABAQEf+BwB+BgE+B0MFfxZ/DwcBe/6YQX4sA/4sxGz+QMSAAMCAAEACAG/Acx1bmky\\
-MTkyQ29weXJpZ2h0IChjKSAyMDAxLTIwMTEgYnkgdGhlIFNUSSBQdWIgQ29tcGFuaWVzLCBjb25z\\
-aXN0aW5nIG9mIHRoZSBBbWVyaWNhbiBDaGVtaWNhbCBTb2NpZXR5LCB0aGUgQW1lcmljYW4gSW5z\\
-dGl0dXRlIG9mIFBoeXNpY3MsIHRoZSBBbWVyaWNhbiBNYXRoZW1hdGljYWwgU29jaWV0eSwgdGhl\\
-IEFtZXJpY2FuIFBoeXNpY2FsIFNvY2lldHksIEVsc2V2aWVyLCBJbmMuLCBhbmQgVGhlIEluc3Rp\\
-dHV0ZSBvZiBFbGVjdHJpY2FsIGFuZCBFbGVjdHJvbmljIEVuZ2luZWVycywgSW5jLiAgUG9ydGlv\\
-bnMgY29weXJpZ2h0IChjKSAxOTk4LTIwMDMgYnkgTWljcm9QcmVzcywgSW5jLiAgUG9ydGlvbnMg\\
-Y29weXJpZ2h0IChjKSAxOTkwIGJ5IEVsc2V2aWVyLCBJbmMuICBBbGwgcmlnaHRzIHJlc2VydmVkLgpDb3B5cmlnaHQgKGMpIDIwMTMgVGhlIE1hdGhKYXggQ29uc29ydGl1bS9GU1R5cGUgMCBkZWYA\\
-AAABhwACAQEES/p8Dvoy93DNAfns95YVK7M/1krWd3gYoWqqaKhvCJWBj4WCGoF7f4Ee/OtJ+OoG\\
-nZOBgYOGgIKCH21sbmt0ap94GM3X19XrtAgOfZn4VpX3XpkGkQwKzQrNC6KQjo6PkJKPlI4MDLKP\\
-kI+PjpKSkY8MDQA=")}
-]]>
-</style>
-<g id="Axis">
-	<g id="unit_vectors" display="none">
-		<g display="inline">
-			<g>
-				
-					<line fill="none" stroke="#ED1C24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" x1="88.828" y1="117" x2="63.362" y2="142.466"/>
-				<g>
-					<polygon fill="#ED1C24" points="62.264,131.996 64.265,132.068 63.903,141.922 73.759,141.562 73.83,143.563 61.827,143.999 
-											"/>
-				</g>
-			</g>
-		</g>
-		<g display="inline">
-			<g>
-				
-					<line fill="none" stroke="#00A651" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" x1="88.828" y1="117" x2="131.659" y2="117"/>
-				<g>
-					<polygon fill="#00A651" points="125.032,125.18 123.668,123.715 130.892,117.002 123.668,110.287 125.032,108.822 
-						133.828,117.002 					"/>
-				</g>
-			</g>
-		</g>
-		<g display="inline">
-			<g>
-				
-					<line fill="none" stroke="#2E3192" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" x1="88.828" y1="117" x2="88.828" y2="74.169"/>
-				<g>
-					<polygon fill="#2E3192" points="97.008,80.796 95.543,82.16 88.83,74.937 82.115,82.16 80.65,80.796 88.83,72 					"/>
-				</g>
-			</g>
-		</g>
-		<g id="j-hat" display="inline">
-			<path fill="#00A651" d="M136.669,107.439c-0.82,3.241-2.001,4.701-3.741,4.701c-0.92,0-1.58-0.5-1.58-1.22
-				c0-0.48,0.359-0.881,0.82-0.881c0.54,0,0.779,0.32,0.779,0.74c0,0.44-0.239,0.381-0.239,0.681c0,0.14,0.12,0.24,0.359,0.24
-				c0.801,0,1.261-0.881,1.94-3.642l1.44-5.841c0.24-0.98,0.32-1.4,0.32-1.601c0-0.439-0.24-0.62-0.96-0.62h-0.521v-0.32
-				c0.641-0.039,1.7-0.199,3.381-0.5l0.08,0.061L136.669,107.439z"/>
-			<text transform="matrix(1 0 0 1 133.2101 104.9102)" fill="#00A651" font-family="'STIXMathJax_Main-Italic'" font-size="20px">^</text>
-		</g>
-		<g id="i-hat" display="inline">
-			<path fill="#ED1C24" d="M57.529,132.762c-1.101,1.681-1.741,2.28-2.741,2.28c-0.66,0-0.98-0.359-0.98-1.1
-				c0-0.4,0.14-1.101,0.44-2.221l0.96-3.541c0.1-0.36,0.18-0.72,0.18-0.88c0-0.4-0.2-0.46-1.28-0.48v-0.32
-				c0.78-0.06,1.18-0.119,3.201-0.5l0.08,0.061l-1.88,6.861c-0.1,0.34-0.2,0.601-0.2,0.88c0,0.2,0.12,0.301,0.28,0.301
-				c0.34,0,0.82-0.421,1.68-1.561L57.529,132.762z"/>
-			<text transform="matrix(1 0 0 1 52.8281 131.2047)" fill="#ED1C24" font-family="'STIXMathJax_Main-Italic'" font-size="20px">^</text>
-		</g>
-		<g id="k-hat" display="inline">
-			<text transform="matrix(1 0 0 1 98.405 64.4077)" fill="#2E3192" font-family="'STIXMathJax_Main-Italic'" font-size="20px">^</text>
-			<text transform="matrix(1 0 0 1 97.8284 72)" fill="#2E3192" font-family="'STIXMathJax_Main-Italic'" font-size="20px">k</text>
-			<g>
-				<path fill="#2E3192" d="M107.05,63.758c-0.94,0.061-1.561,0.461-4.501,3.081l0.74,1.761c0.78,1.84,1.241,2.58,1.621,2.58
-					c0.3,0,0.54-0.22,0.9-0.84c0.1-0.16,0.2-0.34,0.3-0.521l0.3,0.221c-0.92,1.68-1.42,2.18-2.221,2.18c-0.58,0-0.98-0.38-1.62-1.64
-					c-0.36-0.7-0.88-1.94-1.201-2.821l-0.8,0.641L99.608,72h-1.5l2.82-10.562c0.26-0.96,0.32-1.42,0.36-1.76
-					c-0.04-0.36-0.34-0.48-1.021-0.48h-0.36v-0.32c1.18-0.14,1.96-0.28,3.141-0.54l0.12,0.12l-2.401,9.122l0.86-0.66
-					c1.88-1.44,2.861-2.4,2.861-2.801c0-0.22-0.24-0.36-0.74-0.36h-0.28v-0.319h3.581V63.758z"/>
-			</g>
-		</g>
-	</g>
-	<g id="axis">
-		<g>
-			<path fill="#2E3192" d="M72.649,7.54c1.16,0.26,1.601,0.479,2.4,1.66c0.521,0.76,0.9,1,1.4,1c0.32,0,0.54-0.12,0.54-0.3
-				c0-0.08-0.04-0.181-0.1-0.3c-0.12-0.24-0.16-0.4-0.16-0.561c0.02-0.34,0.34-0.681,0.66-0.681c0.42,0,0.7,0.301,0.7,0.74
-				c0,0.801-0.74,1.521-1.86,1.521c-0.581,0-1.26-0.26-2.261-0.88c-0.94-0.58-1.58-0.84-2.101-0.84c-0.32,0-0.58,0.1-0.9,0.359
-				l-0.18-0.18l6.201-7.441h-2.72c-1.041,0-1.42,0.18-1.821,1.2l-0.32-0.08l0.64-2.32h5.661v0.22L72.649,7.54z"/>
-		</g>
-		<g>
-			<path fill="#00A651" d="M211.109,133.479c1.7-2.82,2.44-4.261,2.44-5.141c0-0.28-0.141-0.4-0.521-0.641
-				c-0.4-0.26-0.52-0.46-0.52-0.78c0-0.439,0.34-0.74,0.8-0.74c0.6,0,1.04,0.5,1.04,1.101c0,1.141-0.96,3.341-2.62,6.102
-				c-2.081,3.44-4.222,5.741-5.361,5.741c-0.601,0-1.021-0.34-1.021-0.86c0-0.44,0.34-0.8,0.78-0.8c0.7,0,0.7,0.56,1.221,0.56
-				c0.26,0,0.5-0.16,0.96-0.66c0.36-0.38,1.26-1.561,1.42-1.82c0.12-0.24,0.2-0.48,0.2-0.7c0-0.8-1.101-5.281-1.641-6.642
-				c-0.38-0.979-0.74-1.28-1.54-1.28c-0.22,0-0.4,0.021-0.62,0.08v-0.34c0.22-0.04,0.44-0.08,0.641-0.12
-				c0.399-0.08,1.06-0.2,2.14-0.36h0.08c0.301,0,1.36,3.321,1.7,5.102L211.109,133.479z"/>
-		</g>
-		<g>
-			<path fill="#ED1C24" d="M12.929,174.039c1.4-2.141,2.141-2.861,3.021-2.861c0.48,0,0.82,0.301,0.82,0.74
-				c0,0.42-0.28,0.721-0.68,0.721c-0.38,0-0.56-0.34-1.04-0.34c-0.36,0-1.081,0.88-1.96,2.42c0,0.141,0.04,0.42,0.16,0.9l0.64,2.681
-				c0.14,0.56,0.32,0.82,0.6,0.82c0.26,0,0.48-0.2,0.94-0.801c0.18-0.239,0.26-0.359,0.42-0.56l0.3,0.18
-				c-1.16,1.801-1.68,2.28-2.44,2.28c-0.64,0-0.94-0.359-1.18-1.36l-0.58-2.38l-1.761,2.38c-0.88,1.181-1.28,1.36-1.9,1.36
-				s-1-0.319-1-0.84c0-0.4,0.28-0.72,0.68-0.72c0.18,0,0.38,0.079,0.64,0.22c0.2,0.12,0.4,0.18,0.52,0.18
-				c0.22,0,0.6-0.38,1.02-0.979l1.641-2.321l-0.56-2.48c-0.28-1.2-0.42-1.36-0.92-1.36c-0.16,0-0.4,0.04-0.78,0.141l-0.36,0.1
-				l-0.06-0.32l0.22-0.08c1.22-0.439,1.88-0.58,2.34-0.58c0.5,0,0.74,0.36,1.02,1.721L12.929,174.039z"/>
-		</g>
-		<g>
-			<g>
-				
-					<line fill="none" stroke="#00A651" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" x1="88.828" y1="117" x2="201.399" y2="117"/>
-				<g>
-					<polygon fill="#00A651" points="200.408,118.453 205.828,117 200.408,115.547 					"/>
-				</g>
-			</g>
-		</g>
-		<g>
-			<g>
-				
-					<line fill="none" stroke="#2E3192" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" x1="88.828" y1="117" x2="88.828" y2="4.43"/>
-				<g>
-					<polygon fill="#2E3192" points="90.281,5.42 88.828,0 87.376,5.42 					"/>
-				</g>
-			</g>
-		</g>
-		<g>
-			<g>
-				
-					<line fill="none" stroke="#ED1C24" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" x1="88.828" y1="117" x2="19.96" y2="185.868"/>
-				<g>
-					<polygon fill="#ED1C24" points="19.634,184.14 16.828,189 21.688,186.194 					"/>
-				</g>
-			</g>
-		</g>
-	</g>
-</g>
-<g id="Sides">
-	<g id="vect_c" display="none">
-		
-			<text id="A_00000004506759685396342280000007223103941463018416_" transform="matrix(1 0 0 1 208.7586 75.7544)" display="inline" fill="#2E3192" font-family="'STIXMathJax_Main-Italic'" font-size="20px">C</text>
-		
-			<text transform="matrix(1 0 0 1 211.7357 61.7298)" display="inline" fill="#2E3192" font-family="'STIXMathJax_Main-Regular'" font-size="12px">→</text>
-		<g display="inline">
-			<g>
-				<line fill="none" stroke="#2E3192" stroke-miterlimit="10" x1="88.828" y1="117" x2="204.816" y2="72.389"/>
-				<g>
-					<polygon fill="#2E3192" points="203.192,77.396 202.292,76.957 204.458,72.528 199.882,70.691 200.256,69.762 205.829,72.001 
-											"/>
-				</g>
-			</g>
-		</g>
-	</g>
-	<polygon opacity="0.5" fill="#E6E7E8" points="52.828,171 151.828,90 142.828,27 43.828,108 	"/>
-	<g>
-		<g id="vect_a">
-			<text id="A" transform="matrix(1 0 0 1 78.4279 82.5157)" font-family="'STIXMathJax_Main-Italic'" font-size="16px">N</text>
-			<text transform="matrix(1 0 0 1 80.0789 72.116)" font-family="'STIXMathJax_Main-Regular'" font-size="12px">→</text>
-		</g>
-		<g>
-			<g>
-				<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="122.994" y1="144.154" x2="87.596" y2="91.056"/>
-				<g>
-					<polygon points="92.837,91.544 92.606,92.518 87.81,91.375 87.02,96.242 86.032,96.081 86.995,90.153 					"/>
-				</g>
-			</g>
-		</g>
-		
-			<line fill="none" stroke="#000000" stroke-width="0.5" stroke-miterlimit="10" x1="119.626" y1="139.101" x2="124.277" y2="135.313"/>
-		
-			<line fill="none" stroke="#000000" stroke-width="0.5" stroke-miterlimit="10" x1="127.221" y1="139.141" x2="124.277" y2="135.313"/>
-	</g>
-	<g id="cross">
-		
-			<line fill="none" stroke="#000000" stroke-width="0.25" stroke-miterlimit="10" x1="158.681" y1="94.381" x2="165.045" y2="88.017"/>
-		
-			<line fill="none" stroke="#000000" stroke-width="0.25" stroke-miterlimit="10" x1="165.045" y1="94.381" x2="158.681" y2="88.017"/>
-	</g>
-	<g>
-		<g>
-			<line fill="none" stroke="#00AEEF" stroke-miterlimit="10" x1="122.74" y1="144.358" x2="161.22" y2="92.072"/>
-			<g>
-				<polygon fill="#00AEEF" points="162.55,97.165 161.556,97.28 160.994,92.382 156.149,93.301 155.963,92.317 161.864,91.199 				
-					"/>
-			</g>
-		</g>
-	</g>
-	<text transform="matrix(1 0 0 1 147.5796 92.2366)" fill="#00AEEF" font-family="'STIXMathJax_Main-Italic'" font-size="20px">P</text>
-	<polygon opacity="0.5" fill="#D1D3D4" points="82.583,196.724 181.583,115.724 172.583,52.724 73.583,133.724 	"/>
-	<g id="cross_00000019651926920959339930000015085639179050643115_">
-		
-			<line fill="none" stroke="#000000" stroke-width="0.25" stroke-miterlimit="10" x1="119.548" y1="147.336" x2="125.912" y2="140.972"/>
-		
-			<line fill="none" stroke="#000000" stroke-width="0.25" stroke-miterlimit="10" x1="125.912" y1="147.336" x2="119.548" y2="140.972"/>
-	</g>
-	<g id="vect_a_00000054956429403061930980000013238471047164026002_">
-		<text id="A_00000121985626416416273270000003831528364857932180_" transform="matrix(1 0 0 1 141.1002 133.9205)"><tspan x="0" y="0" fill="#00AEEF" font-family="'STIXMathJax_Main-Italic'" font-size="16px">P</tspan><tspan x="9.775" y="0" fill="#00AEEF" font-family="'STIXMathJax_Main-Italic'" font-size="12px">o</tspan><tspan x="15.775" y="0" fill="#00AEEF" font-family="'STIXMathJax_Main-Italic'" font-size="16px">P</tspan></text>
-		
-			<text transform="matrix(2.3187 0 0 1 141.8868 123.5211)" fill="#00AEEF" font-family="'STIXMathJax_Main-Regular'" font-size="12px">→</text>
-	</g>
-	<text transform="matrix(1 0 0 1 100.3192 145.3234)"><tspan x="0" y="0" fill="#00AEEF" font-family="'STIXMathJax_Main-Italic'" font-size="20px">P</tspan><tspan x="12.22" y="0" fill="#00AEEF" font-family="'STIXMathJax_Main-Italic'" font-size="12px">o</tspan></text>
-	<g>
-	</g>
-	<g>
-	</g>
-	<g>
-	</g>
-	<g>
-	</g>
-	<g>
-	</g>
-	<g>
-	</g>
-	<g>
-	</g>
-	<g>
-	</g>
-</g>
-</svg>
