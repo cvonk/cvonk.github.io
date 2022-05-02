@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="161.575px" height="184.251px" viewBox="0 0 161.575 184.251" enable-background="new 0 0 161.575 184.251"
+	 xml:space="preserve">
+<rect x="27.482" y="43.929" fill="#E9E8F4" stroke="#231F20" stroke-width="2" stroke-miterlimit="10" width="113.384" height="113.383"/>
+<text transform="matrix(1 0 0 1 41.2246 87.8735)"><tspan x="0" y="0" fill="#231F20" font-family="'MyriadPro-Regular'" font-size="17.213">Microphone</tspan><tspan x="10.199" y="20.655" fill="#231F20" font-family="'MyriadPro-Regular'" font-size="17.213">with AGC</tspan><tspan x="11.92" y="41.312" fill="#231F20" font-family="'MyriadPro-Regular'" font-size="17.213">amplifier</tspan></text>
+<text transform="matrix(1 0 0 1 112.5205 182.8257)" fill="#231F20" font-family="'MyriadPro-Regular'" font-size="8">n.c.</text>
+<text transform="matrix(1 0 0 1 44.4897 182.8257)" fill="#231F20" font-family="'MyriadPro-Regular'" font-size="8">n.c.</text>
+<circle fill="#FFFFFF" stroke="#231F20" stroke-miterlimit="10" cx="17.56" cy="99.204" r="15.59"/>
+<line fill="none" stroke="#231F20" stroke-width="2" stroke-miterlimit="10" x1="1.969" y1="83.614" x2="1.969" y2="114.794"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="118.188" y1="174.322" x2="118.188" y2="157.314"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="50.158" y1="174.322" x2="50.158" y2="157.314"/>
+<line fill="none" stroke="#1BAAE9" stroke-miterlimit="10" x1="140.866" y1="99.968" x2="158.74" y2="99.968"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="81.338" y1="174.322" x2="81.338" y2="157.314"/>
+<polygon fill="none" stroke="#231F20" stroke-miterlimit="10" points="87.008,174.322 81.338,182.826 75.669,174.322 "/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="84.171" y1="43.929" x2="84.171" y2="15.582"/>
+<text transform="matrix(1 0 0 1 73.4272 9.9126)" fill="#231F20" font-family="'MyriadPro-Regular'" font-size="12">3.3V</text>
+<line fill="none" stroke="#231F20" stroke-width="2" stroke-miterlimit="10" x1="78.503" y1="15.583" x2="89.843" y2="15.583"/>
+</svg>

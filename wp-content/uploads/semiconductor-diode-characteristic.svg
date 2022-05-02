@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1"
+	 id="svg4589" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://web.resource.org/cc/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" sodipodi:version="0.32" inkscape:version="0.45.1" sodipodi:docname="V-a_characteristic_diodes_si_ge.svg" sodipodi:docbase="/home/filip" inkscape:output_extension="org.inkscape.output.svg.inkscape"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="222.494px"
+	 height="121.012px" viewBox="9.429 -5.931 222.494 121.012" enable-background="new 9.429 -5.931 222.494 121.012"
+	 xml:space="preserve">
+<style type="text/css">
+<![CDATA[
+@font-face{font-family:'ArialMT';src:url("data:;base64,\
+T1RUTwACACAAAQAAQ0ZGIB2Ro/sAAABwAAAC5WNtYXABBwEDAAAALAAAAEQAAAABAAAAAwAAAAwA\
+BAA4AAAACgAIAAIAAgBVAGEAbQB4//8AAABVAGEAbQB4////rP+h/5b/jAABAAAAAAAAAAAAAAEA\
+BAIAAQEBCEFyaWFsTVQAAQEBOfgbAfgYBPgcDBUc+q/9LRwQABwIUQUeoABIgoEl/4uLHqAASIKB\
+Jf+LiwwH9ycPjBD3MBGS+XISAAIBATI/QXJpYWwgaXMgYSB0cmFkZW1hcmsgb2YgVGhlIE1vbm90\
+eXBlIENvcnBvcmF0aW9uLi9GU1R5cGUgOCBkZWYAAAAANgBCAE4AWQAFAgABABwAgAFnAfQCNPgp\
+95QWHAUA+pQc+wAH/nSrFfpUHATA/lQGDvr0HAW6FfdW/eMG+yd6+wlqNB5qNE9FNFUIVDT7B3D7\
+IRv7HfsFo7o0HzS6TNBm5Qhm5Hj3D/cvGvnj91b94gf7E5cto08eok60XcVqCGrE0nveG/cj8KvM\
+yB/IzKn3EPdMGg6T+dD3FxVIUktjTnQIdE1Jf0Qb+wkyqMRMH0zEbNPkGr+Xu6O2HqK2qq2ypbGl\
+tp+7mK6UwZTSlPclnPag0KMIjKSLmpIa1Hq/aaketF1HnzAbNk18bmMfYm1tVnhA+0SjGJvWpciw\
+urC5wK/QpAik0NyX5hvm1IB2xB/EdrRwpmumap1illoIkWyOVDsa+4QH+zuPIZNfHpJemmGiYgj7\
+UAZ4sH+3hr0IfPgmFUpwKXX7F3hBgFd/bH5sfnR3enIIenGDbmwaW51jsGsea6/Ae9Eb0MmaqsEf\
+wamztKTACJ60lcfaGg740/cbFvq69zX7KQesv7i1wqsIqsLKm9Ib2st7ar4fvWquXqBQCPcQ3/cB\
+yfcbG/TcblHEH8RQpzH7DRr9bftH+TEH04W/gKsef6p2pWyeCJ5sZ5ViG0BNclpaH1pZcjv7ARr8\
+/ftI+UYH23zHbrMes25bn0gbWF1+cGAfYHBrZHhYCHhYgUEqGvy7Bw4gmhb4GPi8+/v4kgX3dQb3\
+N/uNqlyjY55rGai3prKkrfdH948Y92sG/AP8iPgf/MYF+3EG+2733lHk+6v8NwUOHAXHFPr/FQAA\
+AA==")}
+@font-face{font-family:'STIXMath-Regular';src:url("data:;base64,\
+T1RUTwADACAAAQAQQ0ZGIGU7Yv0AAACAAAADhkdQT1OwBr8ZAAAECAAAAFBjbWFwAPgA8QAAADwA\
+AABEAAAAAQAAAAMAAAAMAAQAOAAAAAoACAACAAIASQBVAGgAdP//AAAASQBVAGgAdP///7j/rf+b\
+/5AAAQAAAAAAAAAAAAABAAQCAAEBARFTVElYTWF0aC1SZWd1bGFyAAEBASD4GwH4GAT4HAwV/l78\
+oBwMphwKBgX4dg/4fxGz+fISAAICAAEBjgGbQ29weXJpZ2h0IChjKSAyMDAxLTIwMTEgYnkgdGhl\
+IFNUSSBQdWIgQ29tcGFuaWVzLCBjb25zaXN0aW5nIG9mIHRoZSBBbWVyaWNhbiBDaGVtaWNhbCBT\
+b2NpZXR5LCB0aGUgQW1lcmljYW4gSW5zdGl0dXRlIG9mIFBoeXNpY3MsIHRoZSBBbWVyaWNhbiBN\
+YXRoZW1hdGljYWwgU29jaWV0eSwgdGhlIEFtZXJpY2FuIFBoeXNpY2FsIFNvY2lldHksIEVsc2V2\
+aWVyLCBJbmMuLCBhbmQgVGhlIEluc3RpdHV0ZSBvZiBFbGVjdHJpY2FsIGFuZCBFbGVjdHJvbmlj\
+IEVuZ2luZWVycywgSW5jLiAgUG9ydGlvbnMgY29weXJpZ2h0IChjKSAxOTk4LTIwMDMgYnkgTWlj\
+cm9QcmVzcywgSW5jLiAgUG9ydGlvbnMgY29weXJpZ2h0IChjKSAxOTkwIGJ5IEVsc2V2aWVyLCBJ\
+bmMuICBBbGwgcmlnaHRzIHJlc2VydmVkLi9GU1R5cGUgMCBkZWYAAAAAKgA2AEkAVQAFAgABAAQA\
+NwCmARYBZfeODvfhi5/5Ap8B988Wngc5jnua1hr4SwfXmZffjx6e+714B+CGl4M8GvxLBz1+fzeI\
+HngHDvlmfbf4+J8B+Mu3A/lV+SoV+3x4BtyGmHUkGvubBzqHY2pjHmZrU3VLG1JhnKduH2Oyh7jZ\
+GvfMB9aWl9uSHp77r3gH2oWWgEga+8oHIaVFwmIebLTDfNQb58+ku7UfuL6Uwewa95MH6pWj35Me\
+DviIi5/4FsEB1N/3Tt8D+HsWmgdVlYWT0Br3Wwf0YsE5UGFzT10e98QHho5of3SEUnoZcIMFeweM\
+jpCLjxu2k4NgH/xrB0WFglGDHnz3bJoHUZGBl9Aa94UHubWpnLMbvKRnRR/7WgdGgX9RhR58Bw73\
+qoG/+AyrAdHfA/ee2BVxdXuCdRtmfKXLH/ey8Ksm9wgHlYmOhh6FgYOChYJlVGpmcXwIgISFhYUa\
+iIyJjokewPvBBjepYMW9saO/rB4OfZn4VpX3XpkGkQwKzQrNC6KQjo6PkJKPlI4MDLKPkI+PjpKS\
+kY8MDQAAAAEAAAAKAB4ALAABREZMVAAIAAQAAAAA//8AAQAAAAFrZXJuAAgAAAABAAAAAQAEAAIA\
+AAABAAgAAQASAAQAAAABAAwAAQADAAgAAQABAAQ=")}
+]]>
+</style>
+<sodipodi:namedview  width="260px" height="180px" objecttolerance="10" guidetolerance="10" gridtolerance="10000" borderopacity="1.0" bordercolor="#666666" inkscape:cy="91.711203" pagecolor="#ffffff" inkscape:cx="144.62081" inkscape:zoom="2.8" inkscape:window-y="200" inkscape:window-x="40" inkscape:window-height="747" inkscape:window-width="977" inkscape:current-layer="layer1" inkscape:document-units="px" inkscape:pageshadow="2" inkscape:pageopacity="0.0" id="base">
+	</sodipodi:namedview>
+<path id="path1872" fill="none" stroke="#000000" stroke-width="1.0961" d="M-29.813,92.472h297.831"/>
+<path id="path1874" fill="none" stroke="#000000" d="M136.5-5.566V170.02"/>
+<text transform="matrix(1.0006 0 0 1 220.3936 104.1162)" font-family="'STIXMath-Regular'" font-size="12.8205">U</text>
+<text transform="matrix(1.0006 0 0 1 120.6426 11.6284)" font-family="'STIXMath-Regular'" font-size="12.8205">I</text>
+<path id="path1888" sodipodi:nodetypes="czcc" fill="none" stroke="#D40000" d="M-28.245,165.992
+	c6.05-28.125,1.74-68.372,53.371-69.251c51.636-0.879,101.326-1.823,111.363-4.762c13.847,0.104,10.744-13.403,19.688-95.72"/>
+<text transform="matrix(1.0006 0 0 1 -21.8179 82.9395)" font-family="'ArialMT'" font-size="12.8204">U</text>
+<text transform="matrix(1.0006 0 0 1 -12.5537 85.0811)" font-family="'ArialMT'" font-size="9.9971">max</text>
+<text transform="matrix(1.0006 0 0 1 144.4004 106.7559)" opacity="0.6" enable-background="new    " font-family="'STIXMath-Regular'" font-size="12.8204">U</text>
+<text transform="matrix(1.0006 0 0 1 153.6641 110.541)" opacity="0.6" enable-background="new    " font-family="'STIXMath-Regular'" font-size="9.9971">th</text>
+<g>
+	<g>
+		<line fill="none" stroke="#000000" x1="197.975" y1="99.201" x2="217.567" y2="99.201"/>
+		<g>
+			<polygon points="211.657,102.382 211.315,101.441 217.47,99.201 211.315,96.961 211.657,96.021 220.394,99.201 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<line fill="none" stroke="#000000" x1="129.057" y1="19.15" x2="129.057" y2="-0.443"/>
+		<g>
+			<polygon points="132.236,5.468 131.297,5.81 129.057,-0.346 126.816,5.81 125.876,5.468 129.057,-3.269 			"/>
+		</g>
+	</g>
+</g>
+<line opacity="0.6" fill="none" stroke="#000000" stroke-width="0.5238" x1="150.111" y1="62.697" x2="150.111" y2="96.281"/>
+<line opacity="0.6" fill="none" stroke="#000000" stroke-width="0.5" x1="-8.824" y1="89.345" x2="-8.824" y2="110.335"/>
+</svg>

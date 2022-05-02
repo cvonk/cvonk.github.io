@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="255.119px" height="189.921px" viewBox="0 0 255.119 189.921" enable-background="new 0 0 255.119 189.921"
+	 xml:space="preserve">
+<g>
+	<g>
+		<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="164.56" y1="18.378" x2="164.56" y2="181.974"/>
+		<g>
+			<polygon fill="#231F20" points="161.493,20.863 162.042,21.374 164.56,18.665 167.077,21.374 167.627,20.863 164.56,17.563 			
+				"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<g>
+			<g>
+				
+					<line fill="none" stroke="#231F20" stroke-width="0.5" stroke-miterlimit="10" x1="39.686" y1="82.206" x2="40.64" y2="82.507"/>
+				
+					<line fill="none" stroke="#231F20" stroke-width="0.5" stroke-miterlimit="10" stroke-dasharray="1.9839,1.9839" x1="42.531" y1="83.104" x2="162.66" y2="121.041"/>
+				
+					<line fill="none" stroke="#231F20" stroke-width="0.5" stroke-miterlimit="10" x1="163.606" y1="121.339" x2="164.56" y2="121.64"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="220.29" y1="121.891" x2="5.669" y2="121.89"/>
+		<g>
+			<polygon fill="#231F20" points="217.805,118.824 217.293,119.373 220.002,121.89 217.293,124.41 217.805,124.958 221.103,121.89 
+							"/>
+		</g>
+	</g>
+</g>
+<g>
+	<line fill="none" stroke="#993300" stroke-width="2" stroke-miterlimit="10" x1="45.354" y1="87.875" x2="34.501" y2="77.021"/>
+	<line fill="none" stroke="#993300" stroke-width="2" stroke-miterlimit="10" x1="34.016" y1="87.389" x2="44.87" y2="76.536"/>
+</g>
+<g>
+	<line fill="none" stroke="#993300" stroke-width="2" stroke-miterlimit="10" x1="45.354" y1="167.246" x2="34.501" y2="156.391"/>
+	<line fill="none" stroke="#993300" stroke-width="2" stroke-miterlimit="10" x1="34.016" y1="166.759" x2="44.87" y2="155.906"/>
+</g>
+<text transform="matrix(1 0 0 1 226.7725 127.5601)" font-family="'STIX-Regular'" font-size="12">ℜ</text>
+<text transform="matrix(1 0 0 1 237.2607 127.5601)" font-family="'STIX-Italic'" font-size="12">(s)</text>
+<text transform="matrix(1 0 0 1 153.0713 14.1733)" font-family="'STIX-Regular'" font-size="12">ℑ</text>
+<text transform="matrix(1 0 0 1 162.2158 14.1733)" font-family="'STIX-Italic'" font-size="12">(s)</text>
+<text transform="matrix(1 0 0 1 19.8428 85.0386)" fill="#993300" font-family="'STIX-Italic'" font-size="12">p</text>
+<text transform="matrix(1 0 0 1 42.5093 118.7056)" fill="#993300" font-family="'STIX-Italic'" font-size="12">σ</text>
+<text transform="matrix(1 0 0 1 170.0791 84.9624)" enable-background="new    "><tspan x="0" y="0" fill="#993300" font-family="'STIX-Italic'" font-size="12">jω</tspan><tspan x="11.567" y="4" fill="#993300" font-family="'STIX-Italic'" font-size="7">d</tspan></text>
+<text transform="matrix(1 0 0 1 170.0791 164.4097)" enable-background="new    "><tspan x="0" y="0" fill="#993300" font-family="'STIX-Italic'" font-size="12">-jω</tspan><tspan x="15.563" y="4" fill="#993300" font-family="'STIX-Italic'" font-size="7">d</tspan></text>
+<text transform="matrix(1 0 0 1 121.7451 105.2964)" enable-background="new    "><tspan x="0" y="0" font-family="'STIX-Italic'" font-size="12">ω</tspan><tspan x="8.232" y="4" font-family="'STIX-Italic'" font-size="7">n</tspan></text>
+<text transform="matrix(1 0 0 1 19.8428 164.4097)" fill="#993300" font-family="'STIX-Italic'" font-size="12">p</text>
+<text transform="matrix(1 0 0 1 25.8906 160.4097)" fill="#993300" font-family="'STIX-Italic'" font-size="7">*</text>
+<g>
+	<g>
+		
+			<line fill="none" stroke="#00ADEE" stroke-width="0.75" stroke-miterlimit="10" x1="39.686" y1="82.206" x2="158.079" y2="44.535"/>
+		<g>
+			<polygon fill="#00ADEE" points="157.295,46.975 164.383,42.434 155.974,42.822 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		
+			<line fill="none" stroke="#00ADEE" stroke-width="0.75" stroke-miterlimit="10" x1="39.686" y1="161.576" x2="159.604" y2="47.107"/>
+		<g>
+			<polygon fill="#00ADEE" points="159.97,49.643 164.349,42.454 156.961,46.491 			"/>
+		</g>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 170.0791 48.189)" fill="#00ADEE" font-family="'STIX-Regular'" font-size="12">jω</text>
+<g>
+	<g>
+		<line fill="none" stroke="#993300" stroke-width="0.5" stroke-miterlimit="10" x1="39.62" y1="160.09" x2="39.62" y2="159.59"/>
+		
+			<line fill="none" stroke="#993300" stroke-width="0.5" stroke-miterlimit="10" stroke-dasharray="0.9963,0.9963" x1="39.62" y1="158.594" x2="39.62" y2="83.375"/>
+		<line fill="none" stroke="#993300" stroke-width="0.5" stroke-miterlimit="10" x1="39.62" y1="82.877" x2="39.62" y2="82.377"/>
+	</g>
+</g>
+<g>
+	<g>
+		
+			<line fill="none" stroke="#993300" stroke-width="0.5" stroke-miterlimit="10" x1="164.343" y1="82.555" x2="163.843" y2="82.555"/>
+		
+			<line fill="none" stroke="#993300" stroke-width="0.5" stroke-miterlimit="10" stroke-dasharray="1.0059,1.0059" x1="162.837" y1="82.555" x2="40.621" y2="82.555"/>
+		<line fill="none" stroke="#993300" stroke-width="0.5" stroke-miterlimit="10" x1="40.118" y1="82.555" x2="39.618" y2="82.555"/>
+	</g>
+</g>
+<g>
+	<g>
+		
+			<line fill="none" stroke="#993300" stroke-width="0.5" stroke-miterlimit="10" x1="164.343" y1="161.818" x2="163.843" y2="161.818"/>
+		
+			<line fill="none" stroke="#993300" stroke-width="0.5" stroke-miterlimit="10" stroke-dasharray="1.0059,1.0059" x1="162.837" y1="161.818" x2="40.621" y2="161.818"/>
+		
+			<line fill="none" stroke="#993300" stroke-width="0.5" stroke-miterlimit="10" x1="40.118" y1="161.818" x2="39.618" y2="161.818"/>
+	</g>
+</g>
+</svg>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="272.125px" height="124.724px" viewBox="0 0 272.125 124.724" enable-background="new 0 0 272.125 124.724"
+	 xml:space="preserve">
+<text transform="matrix(1 0 0 1 109.8711 14.1724)" fill="#231F20" font-family="'MyriadPro-Regular'" font-size="14">R</text>
+<text transform="matrix(1 0 0 1 153.7065 76.5347)" fill="#231F20" font-family="'MyriadPro-Regular'" font-size="14">C</text>
+<circle fill="none" stroke="#231F20" stroke-width="2" stroke-miterlimit="10" cx="22.929" cy="70.865" r="17.008"/>
+<g>
+	<line fill="none" stroke="#231F20" stroke-width="2" stroke-miterlimit="10" x1="171.746" y1="77.953" x2="200.093" y2="77.953"/>
+	<line fill="none" stroke="#231F20" stroke-width="2" stroke-miterlimit="10" x1="171.747" y1="69.449" x2="200.093" y2="69.449"/>
+</g>
+<g>
+	<g>
+		
+			<line fill="none" stroke="#00ADEE" stroke-width="0.952" stroke-miterlimit="10" x1="246.865" y1="31.181" x2="246.865" y2="112.353"/>
+		<g>
+			<polygon fill="#00ADEE" points="242.972,109.198 243.669,108.549 246.864,111.987 250.061,108.549 250.758,109.198 
+				246.864,113.385 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		
+			<line fill="none" stroke="#00ADEE" stroke-width="0.952" stroke-miterlimit="10" x1="56.944" y1="31.181" x2="56.944" y2="112.353"/>
+		<g>
+			<polygon fill="#00ADEE" points="53.051,109.198 53.748,108.549 56.943,111.987 60.14,108.549 60.837,109.198 56.943,113.385 			
+				"/>
+		</g>
+	</g>
+</g>
+<line fill="none" stroke="#231F20" stroke-width="0.971" stroke-miterlimit="10" x1="22.928" y1="119.057" x2="22.928" y2="25.511"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="187.339" y1="119.057" x2="187.339" y2="79.369"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="187.338" y1="68.031" x2="187.338" y2="25.512"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="88.125" y1="25.511" x2="22.928" y2="25.511"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="255.37" y1="119.054" x2="22.929" y2="119.054"/>
+<line fill="none" stroke="#231F20" stroke-miterlimit="10" x1="255.369" y1="25.511" x2="136.314" y2="25.511"/>
+<text transform="matrix(1 0 0 1 62.6138 73.7002)" fill="#00ADEE" font-family="'MyriadPro-Regular'" font-size="12">u(t)</text>
+<text transform="matrix(1 0 0 1 252.5332 73.7002)" fill="#00ADEE" font-family="'MyriadPro-Regular'" font-size="12">y(t)</text>
+<rect x="88.125" y="19.842" fill="none" stroke="#231F20" stroke-width="1.633" stroke-miterlimit="10" width="48.188" height="11.339"/>
+</svg>
