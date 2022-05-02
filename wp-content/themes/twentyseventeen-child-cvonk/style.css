@@ -1,15 +1,15 @@
 /*!
  Theme Name:   Twenty Seventeen Child Category Excerpts
- Theme URI:    http://coertvonk.com/twenty-fifteen-child/
+ Theme URI:    /twentyseventeen-child-cvonk/
  Description:  Show excerpts in category overview. As cards or thumbnails. 
  Author:       Coert Vonk
- Author URI:   http://coertvonk.com
+ Author URI:   https://coertvonk.com
  Template:     twentyseventeen
  Version:      1.0.0
  License:      GNU General Public License v2 or later
- License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ License URI:  https://www.gnu.org/licenses/gpl-2.0.html
  Tags:         excerpt, thumbnail, summary, category, twenty-seventeen child, light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready, category excerpts, category thumbnail grid
- Text Domain:  twenty-seventeen-child
+ Text Domain:  twentyseventeen-child-cvonk
 */
 
 /* fonts */
@@ -1104,7 +1104,7 @@ p.important-note .icon {
 
 /* generic flex-container */
 
-@media (min-width: 1066px) {
+@media (min-width: 997px) {
     div.category-toc {
         position: sticky;
         top: 2em;
