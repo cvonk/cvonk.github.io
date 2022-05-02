@@ -7,7 +7,7 @@
 ;                               1.00
 ;                             PPC ROM
 ;
-;         https://coertvonk.com/technology/hp41/curve-fit-4581
+;         https://coert.vonk.one/technology/hp41/curve-fit-4581
 
 ; BLOCK CLEAR ROUTINE, stores zeroes in a block of registers
 ;

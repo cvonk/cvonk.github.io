@@ -7,7 +7,7 @@
 ;                                3.00
 ;                            by Coert Vonk
 ;
-; https://coertvonk.com/technology/hp41/complex-arithmetic-xmem-4426
+; https://coert.vonk.one/technology/hp41/complex-arithmetic-xmem-4426
 ;
 ; The program consists of two parts.  The part listed below should be
 ; in main memory.  The other part (listed in CA300xm.txt) can be

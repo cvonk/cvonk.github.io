@@ -7,7 +7,7 @@
 ;				    1.00
 ;                                  PPC ROM
 ;
-;     https://coertvonk.com/technology/hp41/base-conversion-4516
+;     https://coert.vonk.one/technology/hp41/base-conversion-4516
 
 ; BASE TO DECIMAL
 

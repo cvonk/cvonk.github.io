@@ -11,16 +11,16 @@
 	<!-- This site is optimized with the Yoast SEO plugin v18.6 - https://yoast.com/wordpress/plugins/seo/ -->
 	<title>Z-transform, and its inverse transform introduced step-by-step</title>
 	<meta name="description" content="Derives the Z-transform using the Laplace transform. Includes stability criteria and region of convergence where the z-transform is valid." />
-	<link rel="canonical" href="https://coertvonk.com/physics/lfz-transforms/z/z-transform-20592" />
+	<link rel="canonical" href="https://coert.vonk.one/physics/lfz-transforms/z/z-transform-20592" />
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:type" content="article" />
 	<meta property="og:title" content="Z-transform, and its inverse transform introduced step-by-step" />
 	<meta property="og:description" content="Derives the Z-transform using the Laplace transform. Includes stability criteria and region of convergence where the z-transform is valid." />
-	<meta property="og:url" content="https://coertvonk.com/physics/lfz-transforms/z/z-transform-20592" />
+	<meta property="og:url" content="https://coert.vonk.one/physics/lfz-transforms/z/z-transform-20592" />
 	<meta property="og:site_name" content="Coert Vonk" />
 	<meta property="article:published_time" content="2017-11-06T05:57:45+00:00" />
 	<meta property="article:modified_time" content="2022-02-16T20:05:46+00:00" />
-	<meta property="og:image" content="https://coertvonk.com/wp-content/uploads/Lotfi-Zadeh-colorized.jpg" />
+	<meta property="og:image" content="https://coert.vonk.one/wp-content/uploads/Lotfi-Zadeh-colorized.jpg" />
 	<meta property="og:image:width" content="400" />
 	<meta property="og:image:height" content="400" />
 	<meta property="og:image:type" content="image/jpeg" />
@@ -29,7 +29,7 @@
 	<meta name="twitter:data1" content="Coert Vonk" />
 	<meta name="twitter:label2" content="Est. reading time" />
 	<meta name="twitter:data2" content="14 minutes" />
-	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://coertvonk.com/#website","url":"https://coertvonk.com/","name":"Coert Vonk","description":"Embedded Software Engineer","publisher":{"@id":"https://coertvonk.com/#/schema/person/5eeda746b43b88312a0621fdc226c70e"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://coertvonk.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"ImageObject","@id":"https://coertvonk.com/physics/lfz-transforms/z/z-transform-20592#primaryimage","inLanguage":"en-US","url":"https://coertvonk.com/wp-content/uploads/Lotfi-Zadeh-colorized.jpg","contentUrl":"https://coertvonk.com/wp-content/uploads/Lotfi-Zadeh-colorized.jpg","width":400,"height":400,"caption":"Lotfi Zadeh (colorized)"},{"@type":"WebPage","@id":"https://coertvonk.com/physics/lfz-transforms/z/z-transform-20592#webpage","url":"https://coertvonk.com/physics/lfz-transforms/z/z-transform-20592","name":"Z-transform, and its inverse transform introduced step-by-step","isPartOf":{"@id":"https://coertvonk.com/#website"},"primaryImageOfPage":{"@id":"https://coertvonk.com/physics/lfz-transforms/z/z-transform-20592#primaryimage"},"datePublished":"2017-11-06T05:57:45+00:00","dateModified":"2022-02-16T20:05:46+00:00","description":"Derives the Z-transform using the Laplace transform. Includes stability criteria and region of convergence where the z-transform is valid.","breadcrumb":{"@id":"https://coertvonk.com/physics/lfz-transforms/z/z-transform-20592#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://coertvonk.com/physics/lfz-transforms/z/z-transform-20592"]}]},{"@type":"BreadcrumbList","@id":"https://coertvonk.com/physics/lfz-transforms/z/z-transform-20592#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Vonk Family","item":"https://coertvonk.com/"},{"@type":"ListItem","position":2,"name":"Physics","item":"https://coertvonk.com/category/physics"},{"@type":"ListItem","position":3,"name":"LFZ transforms","item":"https://coertvonk.com/category/physics/lfz-transforms"},{"@type":"ListItem","position":4,"name":"Z-transform","item":"https://coertvonk.com/category/physics/lfz-transforms/z"},{"@type":"ListItem","position":5,"name":"Forward Z-transform"}]},{"@type":"Article","@id":"https://coertvonk.com/physics/lfz-transforms/z/z-transform-20592#article","isPartOf":{"@id":"https://coertvonk.com/physics/lfz-transforms/z/z-transform-20592#webpage"},"author":{"@id":"https://coertvonk.com/#/schema/person/5eeda746b43b88312a0621fdc226c70e"},"headline":"Forward Z-transform","datePublished":"2017-11-06T05:57:45+00:00","dateModified":"2022-02-16T20:05:46+00:00","mainEntityOfPage":{"@id":"https://coertvonk.com/physics/lfz-transforms/z/z-transform-20592#webpage"},"wordCount":2894,"commentCount":0,"publisher":{"@id":"https://coertvonk.com/#/schema/person/5eeda746b43b88312a0621fdc226c70e"},"image":{"@id":"https://coertvonk.com/physics/lfz-transforms/z/z-transform-20592#primaryimage"},"thumbnailUrl":"https://coertvonk.com/wp-content/uploads/Lotfi-Zadeh-colorized.jpg","articleSection":["Z-transform"],"inLanguage":"en-US"},{"@type":["Person","Organization"],"@id":"https://coertvonk.com/#/schema/person/5eeda746b43b88312a0621fdc226c70e","name":"Coert Vonk","image":{"@type":"ImageObject","@id":"https://coertvonk.com/#personlogo","inLanguage":"en-US","url":"http://1.gravatar.com/avatar/193315b96c6661985694e2ecd91f2996?s=96&d=mm&r=g","contentUrl":"http://1.gravatar.com/avatar/193315b96c6661985694e2ecd91f2996?s=96&d=mm&r=g","caption":"Coert Vonk"},"logo":{"@id":"https://coertvonk.com/#personlogo"},"description":"Passionately curious and stubbornly persistent. Enjoys to inspire and consult with others to exchange the poetry of logical ideas.","sameAs":["https://coertvonk.com"],"url":"http://coertvonk.com/author/cvonk"}]}</script>
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://coert.vonk.one/#website","url":"https://coert.vonk.one/","name":"Coert Vonk","description":"Embedded Software Engineer","publisher":{"@id":"https://coert.vonk.one/#/schema/person/5eeda746b43b88312a0621fdc226c70e"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://coert.vonk.one/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"ImageObject","@id":"https://coert.vonk.one/physics/lfz-transforms/z/z-transform-20592#primaryimage","inLanguage":"en-US","url":"https://coert.vonk.one/wp-content/uploads/Lotfi-Zadeh-colorized.jpg","contentUrl":"https://coert.vonk.one/wp-content/uploads/Lotfi-Zadeh-colorized.jpg","width":400,"height":400,"caption":"Lotfi Zadeh (colorized)"},{"@type":"WebPage","@id":"https://coert.vonk.one/physics/lfz-transforms/z/z-transform-20592#webpage","url":"https://coert.vonk.one/physics/lfz-transforms/z/z-transform-20592","name":"Z-transform, and its inverse transform introduced step-by-step","isPartOf":{"@id":"https://coert.vonk.one/#website"},"primaryImageOfPage":{"@id":"https://coert.vonk.one/physics/lfz-transforms/z/z-transform-20592#primaryimage"},"datePublished":"2017-11-06T05:57:45+00:00","dateModified":"2022-02-16T20:05:46+00:00","description":"Derives the Z-transform using the Laplace transform. Includes stability criteria and region of convergence where the z-transform is valid.","breadcrumb":{"@id":"https://coert.vonk.one/physics/lfz-transforms/z/z-transform-20592#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://coert.vonk.one/physics/lfz-transforms/z/z-transform-20592"]}]},{"@type":"BreadcrumbList","@id":"https://coert.vonk.one/physics/lfz-transforms/z/z-transform-20592#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Vonk Family","item":"https://coert.vonk.one/"},{"@type":"ListItem","position":2,"name":"Physics","item":"https://coert.vonk.one/category/physics"},{"@type":"ListItem","position":3,"name":"LFZ transforms","item":"https://coert.vonk.one/category/physics/lfz-transforms"},{"@type":"ListItem","position":4,"name":"Z-transform","item":"https://coert.vonk.one/category/physics/lfz-transforms/z"},{"@type":"ListItem","position":5,"name":"Forward Z-transform"}]},{"@type":"Article","@id":"https://coert.vonk.one/physics/lfz-transforms/z/z-transform-20592#article","isPartOf":{"@id":"https://coert.vonk.one/physics/lfz-transforms/z/z-transform-20592#webpage"},"author":{"@id":"https://coert.vonk.one/#/schema/person/5eeda746b43b88312a0621fdc226c70e"},"headline":"Forward Z-transform","datePublished":"2017-11-06T05:57:45+00:00","dateModified":"2022-02-16T20:05:46+00:00","mainEntityOfPage":{"@id":"https://coert.vonk.one/physics/lfz-transforms/z/z-transform-20592#webpage"},"wordCount":2894,"commentCount":0,"publisher":{"@id":"https://coert.vonk.one/#/schema/person/5eeda746b43b88312a0621fdc226c70e"},"image":{"@id":"https://coert.vonk.one/physics/lfz-transforms/z/z-transform-20592#primaryimage"},"thumbnailUrl":"https://coert.vonk.one/wp-content/uploads/Lotfi-Zadeh-colorized.jpg","articleSection":["Z-transform"],"inLanguage":"en-US"},{"@type":["Person","Organization"],"@id":"https://coert.vonk.one/#/schema/person/5eeda746b43b88312a0621fdc226c70e","name":"Coert Vonk","image":{"@type":"ImageObject","@id":"https://coert.vonk.one/#personlogo","inLanguage":"en-US","url":"http://1.gravatar.com/avatar/193315b96c6661985694e2ecd91f2996?s=96&d=mm&r=g","contentUrl":"http://1.gravatar.com/avatar/193315b96c6661985694e2ecd91f2996?s=96&d=mm&r=g","caption":"Coert Vonk"},"logo":{"@id":"https://coert.vonk.one/#personlogo"},"description":"Passionately curious and stubbornly persistent. Enjoys to inspire and consult with others to exchange the poetry of logical ideas.","sameAs":["https://coert.vonk.one"],"url":"/author/cvonk"}]}</script>
 	<!-- / Yoast SEO plugin. -->
 
 
@@ -257,7 +257,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 <link rel='stylesheet' id='twentyseventeen-style-css'  href='../../../wp-content/themes/twentyseventeen-child-cvonk/style.css' media='all' />
 <link rel='stylesheet' id='twentyseventeen-block-style-css'  href='../../../wp-content/themes/twentyseventeen/assets/css/blocks.css' media='all' />
 <!--[if lt IE 9]>
-<link rel='stylesheet' id='twentyseventeen-ie8-css'  href='http://coertvonk.com/wp-content/themes/twentyseventeen/assets/css/ie8.css' media='all' />
+<link rel='stylesheet' id='twentyseventeen-ie8-css'  href='/wp-content/themes/twentyseventeen/assets/css/ie8.css' media='all' />
 <![endif]-->
 <link rel='stylesheet' id='fancybox-css'  href='../../../wp-content/plugins/easy-fancybox/css/jquery.fancybox.min.css' media='screen' />
 <style id='fancybox-inline-css'>
@@ -265,11 +265,11 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 </style>
 <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js' id='jquery-js'></script>
 <script src='../../../wp-content/plugins/google-analytics-dashboard-for-wp/assets/js/frontend-gtag.min.js' id='exactmetrics-frontend-script-js'></script>
-<script data-cfasync="false" data-wpfc-render="false" id='exactmetrics-frontend-script-js-extra'>var exactmetrics_frontend = {"js_events_tracking":"true","download_extensions":"zip,mp3,mpeg,pdf,docx,pptx,xlsx,rar","inbound_paths":"[{\"path\":\"\\\/go\\\/\",\"label\":\"affiliate\"},{\"path\":\"\\\/recommend\\\/\",\"label\":\"affiliate\"}]","home_url":"http:\/\/coertvonk.com","hash_tracking":"false","ua":"UA-86942534-1","v4_id":"G-EN4Z6WHGH4"};</script>
+<script data-cfasync="false" data-wpfc-render="false" id='exactmetrics-frontend-script-js-extra'>var exactmetrics_frontend = {"js_events_tracking":"true","download_extensions":"zip,mp3,mpeg,pdf,docx,pptx,xlsx,rar","inbound_paths":"[{\"path\":\"\\\/go\\\/\",\"label\":\"affiliate\"},{\"path\":\"\\\/recommend\\\/\",\"label\":\"affiliate\"}]","home_url":"/","hash_tracking":"false","ua":"UA-86942534-1","v4_id":"G-EN4Z6WHGH4"};</script>
 <script id='cookie-law-info-js-extra'>
 var Cli_Data = {"nn_cookie_ids":[],"cookielist":[],"non_necessary_cookies":[],"ccpaEnabled":"1","ccpaRegionBased":"","ccpaBarEnabled":"","strictlyEnabled":["necessary","obligatoire"],"ccpaType":"ccpa_gdpr","js_blocking":"1","custom_integration":"","triggerDomRefresh":"","secure_cookies":""};
 var cli_cookiebar_settings = {"animate_speed_hide":"500","animate_speed_show":"500","background":"#FFF","border":"#b1a6a6c2","border_on":"","button_1_button_colour":"#61a229","button_1_button_hover":"#4e8221","button_1_link_colour":"#fff","button_1_as_button":"1","button_1_new_win":"","button_2_button_colour":"#333","button_2_button_hover":"#292929","button_2_link_colour":"#444","button_2_as_button":"","button_2_hidebar":"1","button_3_button_colour":"#dedfe0","button_3_button_hover":"#b2b2b3","button_3_link_colour":"#333333","button_3_as_button":"1","button_3_new_win":"","button_4_button_colour":"#dedfe0","button_4_button_hover":"#b2b2b3","button_4_link_colour":"#333333","button_4_as_button":"1","button_7_button_colour":"#61a229","button_7_button_hover":"#4e8221","button_7_link_colour":"#fff","button_7_as_button":"1","button_7_new_win":"","font_family":"inherit","header_fix":"","notify_animate_hide":"1","notify_animate_show":"","notify_div_id":"#cookie-law-info-bar","notify_position_horizontal":"right","notify_position_vertical":"bottom","scroll_close":"","scroll_close_reload":"","accept_close_reload":"","reject_close_reload":"","showagain_tab":"","showagain_background":"#fff","showagain_border":"#000","showagain_div_id":"#cookie-law-info-again","showagain_x_position":"100px","text":"#333333","show_once_yn":"","show_once":"10000","logging_on":"","as_popup":"","popup_overlay":"1","bar_heading_text":"","cookie_bar_as":"banner","popup_showagain_position":"bottom-right","widget_position":"left"};
-var log_object = {"ajax_url":"https:\/\/coertvonk.com\/wp-admin\/admin-ajax.php"};
+var log_object = {"ajax_url":"https:\/\/coert.vonk.one\/wp-admin\/admin-ajax.php"};
 </script>
 <script src='../../../wp-content/plugins/cookie-law-info/public/js/cookie-law-info-public.js' id='cookie-law-info-js'></script>
 <script id='cookie-law-info-ccpa-js-extra'>
@@ -281,7 +281,7 @@ var ccpa_data = {"opt_out_prompt":"Do you really wish to opt out?","opt_out_conf
 cssTarget="img.style-svg";ForceInlineSVGActive="false";
 </script>
 <!--[if lt IE 9]>
-<script src='http://coertvonk.com/wp-content/themes/twentyseventeen/assets/js/html5.js' id='html5-js'></script>
+<script src='/wp-content/themes/twentyseventeen/assets/js/html5.js' id='html5-js'></script>
 <![endif]-->
 <link rel="https://api.w.org/" href="../../../wp-json/index.html" /><link rel="alternate" type="application/json" href="../../../wp-json/wp/v2/posts/20592" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../../xmlrpc.php@rsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../../../wp-includes/wlwmanifest.xml" /> 
@@ -342,7 +342,7 @@ MathJax = {
 }</style><link rel="icon" href="../../../wp-content/uploads/cropped-cropped-site-logo-1-32x32.png" sizes="32x32" />
 <link rel="icon" href="../../../wp-content/uploads/cropped-cropped-site-logo-1-192x192.png" sizes="192x192" />
 <link rel="apple-touch-icon" href="../../../wp-content/uploads/cropped-cropped-site-logo-1-180x180.png" />
-<meta name="msapplication-TileImage" content="https://coertvonk.com/wp-content/uploads/cropped-cropped-site-logo-1-270x270.png" />
+<meta name="msapplication-TileImage" content="https://coert.vonk.one/wp-content/uploads/cropped-cropped-site-logo-1-270x270.png" />
 </head>
 
 <body class="post-template-default single single-post postid-20592 single-format-standard wp-custom-logo wp-embed-responsive group-blog has-header-image colors-light">
@@ -354,7 +354,7 @@ MathJax = {
 		<div class="custom-header">
 
 		<div class="custom-header-media">
-			<div id="wp-custom-header" class="wp-custom-header"><img src="../../../wp-content/uploads/cropped-IMG_20170303_113335-EFFECTS.jpg" width="2000" height="1466" alt="" srcset="https://coertvonk.com/wp-content/uploads/cropped-IMG_20170303_113335-EFFECTS.jpg 2000w, ../../../wp-content/uploads/cropped-IMG_20170303_113335-EFFECTS-400x293.jpg 400w, ../../../wp-content/uploads/cropped-IMG_20170303_113335-EFFECTS-768x563.jpg 768w, ../../../wp-content/uploads/cropped-IMG_20170303_113335-EFFECTS-1024x751.jpg 1024w, ../../../wp-content/uploads/cropped-IMG_20170303_113335-EFFECTS-250x183.jpg 250w, ../../../wp-content/uploads/cropped-IMG_20170303_113335-EFFECTS-300x220.jpg 300w, ../../../wp-content/uploads/cropped-IMG_20170303_113335-EFFECTS-350x257.jpg 350w, ../../../wp-content/uploads/cropped-IMG_20170303_113335-EFFECTS-500x367.jpg 500w, ../../../wp-content/uploads/cropped-IMG_20170303_113335-EFFECTS-750x550.jpg 750w" sizes="100vw" /></div>		</div>
+			<div id="wp-custom-header" class="wp-custom-header"><img src="../../../wp-content/uploads/cropped-IMG_20170303_113335-EFFECTS.jpg" width="2000" height="1466" alt="" srcset="https://coert.vonk.one/wp-content/uploads/cropped-IMG_20170303_113335-EFFECTS.jpg 2000w, ../../../wp-content/uploads/cropped-IMG_20170303_113335-EFFECTS-400x293.jpg 400w, ../../../wp-content/uploads/cropped-IMG_20170303_113335-EFFECTS-768x563.jpg 768w, ../../../wp-content/uploads/cropped-IMG_20170303_113335-EFFECTS-1024x751.jpg 1024w, ../../../wp-content/uploads/cropped-IMG_20170303_113335-EFFECTS-250x183.jpg 250w, ../../../wp-content/uploads/cropped-IMG_20170303_113335-EFFECTS-300x220.jpg 300w, ../../../wp-content/uploads/cropped-IMG_20170303_113335-EFFECTS-350x257.jpg 350w, ../../../wp-content/uploads/cropped-IMG_20170303_113335-EFFECTS-500x367.jpg 500w, ../../../wp-content/uploads/cropped-IMG_20170303_113335-EFFECTS-750x550.jpg 750w" sizes="100vw" /></div>		</div>
 
 	<div class="site-branding">
 	<div class="wrap">
@@ -537,7 +537,7 @@ jQuery(document).ready(function() {
     What is now called the Z-transform (named in honor of Lotfi Zadeh) was known to, mathematician and astronomer, Pierre-Simon Laplace around 1785. With the introduction of digitally sampled-data, the transform was re-discovered by Hurewicz in 1947, and developed by Lotfi Zadeh and John Ragazzinie around 1952, as a way to solve linear, constant-coefficient difference equations.\(\)
 </p>
 <p>
-    As we will see, the convolution property makes the Z-transform a powerful tool in <a href="https://coertvonk.com/physics/lfz-transforms/z/discrete-transfer-functions-21595#lti">analyzing sampled-data systems</a>.
+    As we will see, the convolution property makes the Z-transform a powerful tool in <a href="https://coert.vonk.one/physics/lfz-transforms/z/discrete-transfer-functions-21595#lti">analyzing sampled-data systems</a>.
 </p>
 
 <h2 id="intro">
@@ -617,7 +617,7 @@ jQuery(document).ready(function() {
         <figure>
             <div class="flex-container tight">
                 <a href="../../../wp-content/uploads/Digital-System-Sampling-2.svg">
-                    <img  title="" src="https://coertvonk.com/wp-content/uploads/Digital-System-Sampling-2.svg" alt="Digital System Sampling" class="alignnone size-full wp-image-21735" width="500" />
+                    <img  title="" src="https://coert.vonk.one/wp-content/uploads/Digital-System-Sampling-2.svg" alt="Digital System Sampling" class="alignnone size-full wp-image-21735" width="500" />
                 </a>
             </div>
             <figcaption>
@@ -633,7 +633,7 @@ jQuery(document).ready(function() {
         <figure>
             <div class="flex-container tight">
                 <a href="../../../wp-content/uploads/LFZ-Bilateral-Continuous-Function-1.svg">
-                    <img src="https://coertvonk.com/wp-content/uploads/LFZ-Bilateral-Continuous-Function-1.svg" alt="LFZ Bilateral Continuous Function" class="alignnone size-full wp-image-22670" width="300" />
+                    <img src="https://coert.vonk.one/wp-content/uploads/LFZ-Bilateral-Continuous-Function-1.svg" alt="LFZ Bilateral Continuous Function" class="alignnone size-full wp-image-22670" width="300" />
                 </a>
             </div>
             <figcaption>
@@ -643,13 +643,13 @@ jQuery(document).ready(function() {
     </div>
 </p>
 <p>
-    To work toward a mathematical representation of the sampling process, consider a train of evenly spaced <a href="https://coertvonk.com/physics/lfz-transforms/laplace/laplace-transforms-14929#impulse">impulse functions</a> starting at \(t=0\). This so called Dirac comb, \(s(t)\), has a spacing of \(T\gt0\) and contains \(t=0\).
+    To work toward a mathematical representation of the sampling process, consider a train of evenly spaced <a href="https://coert.vonk.one/physics/lfz-transforms/laplace/laplace-transforms-14929#impulse">impulse functions</a> starting at \(t=0\). This so called Dirac comb, \(s(t)\), has a spacing of \(T\gt0\) and contains \(t=0\).
 
     <div class="align-center">
         <figure>
             <div class="flex-container tight">
                 <a href="../../../wp-content/uploads/LFZ-Unilateral-Dirac-Comb-Function-3.svg">
-                    <img src="https://coertvonk.com/wp-content/uploads/LFZ-Unilateral-Dirac-Comb-Function-3.svg" alt="LFZ Unilateral Dirac Comb Function" class="alignnone size-full wp-image-22669" width="300" />
+                    <img src="https://coert.vonk.one/wp-content/uploads/LFZ-Unilateral-Dirac-Comb-Function-3.svg" alt="LFZ Unilateral Dirac Comb Function" class="alignnone size-full wp-image-22669" width="300" />
                 </a>
             </div>
             <figcaption>
@@ -683,7 +683,7 @@ jQuery(document).ready(function() {
         <figure>
             <div class="flex-container tight">
                 <a href="../../../wp-content/uploads/Impulse-train-modulator.svg">
-                    <img src="https://coertvonk.com/wp-content/uploads/Impulse-train-modulator.svg" alt="Impulse train modulator" class="alignnone size-full wp-image-22693" width="230" />
+                    <img src="https://coert.vonk.one/wp-content/uploads/Impulse-train-modulator.svg" alt="Impulse train modulator" class="alignnone size-full wp-image-22693" width="230" />
                 </a>
             </div>
             <figcaption>
@@ -697,7 +697,7 @@ jQuery(document).ready(function() {
         <figure>
             <div class="flex-container tight">
                 <a href="../../../wp-content/uploads/LFZ-Unilateral-Sampled-Function-4.svg">
-                    <img src="https://coertvonk.com/wp-content/uploads/LFZ-Unilateral-Sampled-Function-4.svg" alt="LFZ Unilateral Sampled Function" class="alignnone size-full wp-image-22701" width="300" />
+                    <img src="https://coert.vonk.one/wp-content/uploads/LFZ-Unilateral-Sampled-Function-4.svg" alt="LFZ Unilateral Sampled Function" class="alignnone size-full wp-image-22701" width="300" />
                 </a>
             </div>
             <figcaption>
@@ -748,7 +748,7 @@ jQuery(document).ready(function() {
     The goal is to form a continuous algebraic expression, so we can use algebra to manipulate the difference equations.
 </p>
 <p>
-    Start with the <a href="https://coertvonk.com/physics/lfz-transforms/laplace/laplace-transforms-14929">Laplace transform</a> of sampled signal \(x_s(t)\) from equation \(\eqref{eq:fstarnT}\)
+    Start with the <a href="https://coert.vonk.one/physics/lfz-transforms/laplace/laplace-transforms-14929">Laplace transform</a> of sampled signal \(x_s(t)\) from equation \(\eqref{eq:fstarnT}\)
 
     <div class="flex-container math">
         $$
@@ -910,7 +910,7 @@ jQuery(document).ready(function() {
         <figure>
             <div class="flex-container tight">
                 <a href="../../../wp-content/uploads/z-plane-frequency-response-3.svg">
-                    <img src="https://coertvonk.com/wp-content/uploads/z-plane-frequency-response-3.svg" alt="z-plane frequency" class="alignnone size-full wp-image-22780" width="250" />
+                    <img src="https://coert.vonk.one/wp-content/uploads/z-plane-frequency-response-3.svg" alt="z-plane frequency" class="alignnone size-full wp-image-22780" width="250" />
                 </a>
             </div>
         </figure>
@@ -1028,7 +1028,7 @@ jQuery(document).ready(function() {
         <figure>
             <div class="flex-container tight">
                 <a href="../../../wp-content/uploads/Frequency-Domain-sampling-no-aliasing-2.svg">
-                    <img src="https://coertvonk.com/wp-content/uploads/Frequency-Domain-sampling-no-aliasing-2.svg" alt="Frequency Domain sampling no-aliasing" class="alignnone size-full wp-image-22736" width="400" />
+                    <img src="https://coert.vonk.one/wp-content/uploads/Frequency-Domain-sampling-no-aliasing-2.svg" alt="Frequency Domain sampling no-aliasing" class="alignnone size-full wp-image-22736" width="400" />
                 </a>
             </div>
             <figcaption>
@@ -1058,7 +1058,7 @@ jQuery(document).ready(function() {
         <figure>
             <div class="flex-container tight">
                 <a href="../../../wp-content/uploads/Impulse-train-modulator-and-LTI-Hr.svg">
-                    <img src="https://coertvonk.com/wp-content/uploads/Impulse-train-modulator-and-LTI-Hr.svg" alt="Impulse train modulator and LTI Hr" class="alignnone size-full wp-image-22694" width="300" />
+                    <img src="https://coert.vonk.one/wp-content/uploads/Impulse-train-modulator-and-LTI-Hr.svg" alt="Impulse train modulator and LTI Hr" class="alignnone size-full wp-image-22694" width="300" />
                 </a>
             </div>
             <figcaption>
@@ -1106,7 +1106,7 @@ jQuery(document).ready(function() {
         <figure>
             <div class="flex-container tight">
                 <a href="../../../wp-content/uploads/Frequency-Domain-sampling-aliasing-2.svg">
-                    <img src="https://coertvonk.com/wp-content/uploads/Frequency-Domain-sampling-aliasing-2.svg" alt="Frequency Domain sampling aliasing" class="alignnone size-full wp-image-22737" width="400" />
+                    <img src="https://coert.vonk.one/wp-content/uploads/Frequency-Domain-sampling-aliasing-2.svg" alt="Frequency Domain sampling aliasing" class="alignnone size-full wp-image-22737" width="400" />
                 </a>
             </div>
             <figcaption>
@@ -1154,14 +1154,14 @@ jQuery(document).ready(function() {
         <figure>
             <div class="flex-container tight">
                 <a href="../../../wp-content/uploads/z-plane-re-and-im-magnitude-and-phase-1.svg">
-                    <img src="https://coertvonk.com/wp-content/uploads/z-plane-re-and-im-magnitude-and-phase-1.svg" alt="z-plane, re and im, magnitude and phase" class="alignnone size-full wp-image-22792" width="300" />
+                    <img src="https://coert.vonk.one/wp-content/uploads/z-plane-re-and-im-magnitude-and-phase-1.svg" alt="z-plane, re and im, magnitude and phase" class="alignnone size-full wp-image-22792" width="300" />
                 </a>
             </div>
         </figure>
     </div>
 </p>
 <p>
-    According to the <a href="https://coertvonk.com/physics/lfz-transforms/z/z-transform-20592#nyquist">Nyquist–Shannon sampling theorem</a>, a discrete signal can only have frequencies \(|\omega|\) between \(0\) and half the sampling frequency
+    According to the <a href="https://coert.vonk.one/physics/lfz-transforms/z/z-transform-20592#nyquist">Nyquist–Shannon sampling theorem</a>, a discrete signal can only have frequencies \(|\omega|\) between \(0\) and half the sampling frequency
 
     <div class="flex-container math">
         $$
@@ -1170,7 +1170,7 @@ jQuery(document).ready(function() {
     </div>
 </p>
 <p>
-    The maximum frequency in the discrete signal, the so called <a href="https://coertvonk.com/physics/lfz-transforms/z/z-transform-20592#nyquist">Nyquist frequency</a> corresponds to \(\pi\) radians, because with sample period \(T=\frac{1}{f_s}=\frac{2\pi}{\omega_s}\) and the Nyquist frequency \(\omega_{\small N}=\frac{\omega_s}{2}\), the natural angular frequency for the Nyquist frequency follows as
+    The maximum frequency in the discrete signal, the so called <a href="https://coert.vonk.one/physics/lfz-transforms/z/z-transform-20592#nyquist">Nyquist frequency</a> corresponds to \(\pi\) radians, because with sample period \(T=\frac{1}{f_s}=\frac{2\pi}{\omega_s}\) and the Nyquist frequency \(\omega_{\small N}=\frac{\omega_s}{2}\), the natural angular frequency for the Nyquist frequency follows as
 
     <div class="flex-container math">
         $$
@@ -1187,7 +1187,7 @@ jQuery(document).ready(function() {
     </div>
 </p>
 <p>
-    For those familiar with the <a href="https://coertvonk.com/physics/lfz-transforms/laplace/laplace-transforms-14929">Laplace transform</a>, we will map specific features between the \(s\) and \(z\)-domain:
+    For those familiar with the <a href="https://coert.vonk.one/physics/lfz-transforms/laplace/laplace-transforms-14929">Laplace transform</a>, we will map specific features between the \(s\) and \(z\)-domain:
     <ul>
         <li>
             The origin \(s=0\) of the \(s\)-plane is mapped to \(z=e^0=1\) on the real axis in \(z\)-plane.
@@ -1237,7 +1237,7 @@ jQuery(document).ready(function() {
     <div class="continue-container no-print">
         <div class="continue-content">
             <div class="continue-text">
-                Continue reading about <a href="https://coertvonk.com/physics/lfz-transforms/z/inverse-z-transform-22153">inverse Z-transforms</a>.
+                Continue reading about <a href="https://coert.vonk.one/physics/lfz-transforms/z/inverse-z-transform-22153">inverse Z-transforms</a>.
             </div>
         </div>
     </div>    

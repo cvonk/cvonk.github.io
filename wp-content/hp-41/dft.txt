@@ -6,7 +6,7 @@
 ;
 ;                                   1.00
 ;                               Coert Vonk
-;         https://coertvonk.com/technology/hp41/dft-4588
+;         https://coert.vonk.one/technology/hp41/dft-4588
 
 01      LBL "DFT"
 02      DEG

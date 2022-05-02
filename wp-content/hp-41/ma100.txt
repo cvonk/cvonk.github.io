@@ -5,7 +5,7 @@
 ;  \---------------------------------------------------------------------/
 ;
 ;                                   1.00
-;          https://coertvonk.com/technology/hp41/matrix-4631
+;          https://coert.vonk.one/technology/hp41/matrix-4631
 ;
 ; R07 start register matrix (s)
 ; R08 columns in matrix (c)

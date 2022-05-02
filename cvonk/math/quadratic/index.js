@@ -1,5 +1,5 @@
 // Visualiza Quadratic equation including real and complex roots
-// used in https://coertvonk.com/math/pre-calc/quadratic-equations-23869
+// used in https://coert.vonk.one/math/pre-calc/quadratic-equations-23869
 /*
   Copyright (c) 2018 by Coert Vonk
 

@@ -2,13 +2,13 @@
 	<service>
 		<engineName>WordPress</engineName>
 		<engineLink>https://wordpress.org/</engineLink>
-		<homePageLink>https://coertvonk.com</homePageLink>
+		<homePageLink>https://coert.vonk.one</homePageLink>
 		<apis>
-			<api name="WordPress" blogID="1" preferred="true" apiLink="https://coertvonk.com/xmlrpc.php" />
-			<api name="Movable Type" blogID="1" preferred="false" apiLink="https://coertvonk.com/xmlrpc.php" />
-			<api name="MetaWeblog" blogID="1" preferred="false" apiLink="https://coertvonk.com/xmlrpc.php" />
-			<api name="Blogger" blogID="1" preferred="false" apiLink="https://coertvonk.com/xmlrpc.php" />
-				<api name="WP-API" blogID="1" preferred="false" apiLink="https://coertvonk.com/wp-json/" />
+			<api name="WordPress" blogID="1" preferred="true" apiLink="https://coert.vonk.one/xmlrpc.php" />
+			<api name="Movable Type" blogID="1" preferred="false" apiLink="https://coert.vonk.one/xmlrpc.php" />
+			<api name="MetaWeblog" blogID="1" preferred="false" apiLink="https://coert.vonk.one/xmlrpc.php" />
+			<api name="Blogger" blogID="1" preferred="false" apiLink="https://coert.vonk.one/xmlrpc.php" />
+				<api name="WP-API" blogID="1" preferred="false" apiLink="https://coert.vonk.one/wp-json/" />
 			</apis>
 	</service>
 </rsd>

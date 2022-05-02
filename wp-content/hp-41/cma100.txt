@@ -5,7 +5,7 @@
 ;  |                          for the HP-41                            |
 ;  \-------------------------------------------------------------------/
 ;
-;     https://coertvonk.com/technology/hp41/complex-matrix-4555
+;     https://coert.vonk.one/technology/hp41/complex-matrix-4555
 
 01	LBL "CMAT"
 02	LBL A
