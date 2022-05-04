@@ -7,7 +7,7 @@
 ;                                3.00
 ;                            by Coert Vonk
 ;
-; https://coert.vonk.one/technology/hp41/complex-arithmetic-xmem-4426
+; https://coertvonk.com/technology/hp41/complex-arithmetic-xmem-4426
 ;
 ;                       (continued from CA300.txt)
 ;

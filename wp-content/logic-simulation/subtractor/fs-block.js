@@ -1,5 +1,5 @@
 // 1-bit full subtractor
-// used in https://coert.vonk.one/technology/logic/computer-math-inquiry-4245/7
+// used in https://coertvonk.com/technology/logic/computer-math-inquiry-4245/7
 /*
 Copyright (c) 2017 by Coert Vonk
 

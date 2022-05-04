@@ -9,7 +9,7 @@
 ;                                4.01
 ;                            by Coert Vonk
 ;
-; https://coert.vonk.one/technology/hp41/complex-arithmetic-branchcut-5032
+; https://coertvonk.com/technology/hp41/complex-arithmetic-branchcut-5032
 
 1       LBL "CA"
 2       "CA V4.01"

@@ -6,7 +6,7 @@
 ;
 ;				    1.00
 ;                       John Kennedy, August 1981
-;       https://coert.vonk.one/technology/hp41/first-derivative-4618
+;       https://coertvonk.com/technology/hp41/first-derivative-4618
 
 01	LBL "FD"
 02      FS? 09          ; quick polynomial?

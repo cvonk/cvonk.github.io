@@ -5,7 +5,7 @@
 ;  \---------------------------------------------------------------------/
 ;
 ;                                   1.00
-;         https://coert.vonk.one/technology/hp41/integrate-4625
+;         https://coertvonk.com/technology/hp41/integrate-4625
 
 01      LBL "IG"	; init by
 02      "F-NAME ?"	;   store constants (b-a)/4 in R16

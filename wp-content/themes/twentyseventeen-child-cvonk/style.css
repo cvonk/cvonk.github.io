@@ -1,9 +1,9 @@
 /*!
  Theme Name:   Twenty Seventeen Child Category Excerpts
- Theme URI:    /twentyseventeen-child-cvonk/
+ Theme URI:    https://coertvonk.com/twentyseventeen-child-cvonk/
  Description:  Show excerpts in category overview. As cards or thumbnails. 
  Author:       Coert Vonk
- Author URI:   https://coert.vonk.one
+ Author URI:   https://coertvonk.com
  Template:     twentyseventeen
  Version:      1.0.0
  License:      GNU General Public License v2 or later
@@ -524,7 +524,7 @@ a[href*="//"]:after {
   content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAALBAMAAAC5XnFsAAAACXBIWXMAAAuwAAALsAEaOBByAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAC1QTFRF////R0xVR0xVR0xVR0xVR0xVR0xVR0xVR0xVR0xVR0xVR0xVR0xVR0xVR0xV2q4FugAAAA50Uk5TABAgMEBQYICQoLDA0PBHuDL6AAAATElEQVQI12NgcnFxfveOoe7du8d57xiuMDAwAKkHDAxs7+aBqLxnrECK7V0CA5Dye+YNojgSgNRDoMpoBoZT5eXlJxgYNHfv3l3IAABlixtCRR+0mAAAAABJRU5ErkJggg==");
   margin: 0 0 0 5px;
 }
-a[href*="//coert.vonk.one"]:after,
+a[href*="//coertvonk.com"]:after,
 a.nomark[href*="//"]:after,
 div.syntaxhighlighter a:after {
   content: "";

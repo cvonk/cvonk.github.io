@@ -6,7 +6,7 @@
 ;
 ;				    1.00
 ;                               Coert Vonk
-;          https://coert.vonk.one/technology/hp41/hyperbolic-4623
+;          https://coertvonk.com/technology/hp41/hyperbolic-4623
 
 	01	LBL "HYP"
 

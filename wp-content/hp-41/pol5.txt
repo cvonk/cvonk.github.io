@@ -7,7 +7,7 @@
 ;                               Coert Vonk
 ;				    1.00
 ;
-;  https://coert.vonk.one/technology/hp41/polynomial-factorization-4461
+;  https://coertvonk.com/technology/hp41/polynomial-factorization-4461
 
 01	LBL "POL5"
 
